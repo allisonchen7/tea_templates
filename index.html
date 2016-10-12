@@ -253,39 +253,64 @@
 				<h2>Main Navigation</h2>
 
 				<h3>CSS selector:</h3>
-				<p>nav, nav_button</p>
+					<p>ul.main-navigation</p>
+            		<p>.main-navigation li a{}</p>
+            		<p>.main-navigation li a:hover{}</p>
 
 				<h3>Sample Code:</h3> 
-				<code>
-				.nav_button {
-				<br>
-				padding: 2em;
-				<br>
-				}
-			</code> 
+					<code>&lt;li&gt;<br>&lt;ul class ="main-navigation"&gt; &lt;a href="new-arrival.asp"&gt;NEW ARRIVAL&lt;/a&gt;&lt;/ul&gt;<br>&lt;/li&gt;</code>
+
 
 				<h3>Rendered element:</h3>
-				<a href="#interactive_elements" class="nav_button" class="nav-main-item">Interactive Elements</a>
-					<a href="#text_elements" class="nav_button" >Text Elements</a>
-					<a href="#combined_elements" class="nav_button">Combined Elements</a>
-					<a href="http://www.sfu.ca/~adc6/339/P01/References/References.html" class="nav_button" >
-					References</a>
-					<a href="http://www.sfu.ca/~adc6/339/P01/Wireframes/#g=1&p=watch_quiz">Interactive Wireframes</a>
-			</section> 
+				
+
+				<ul class="main-navigation">
+	              <li><a href="#">NEW ARRIVALS</a></li>
+	              <li><a href="#">TEA</a></li>
+	              <li><a href="#">FIND A RIGHT TEA FOR YOU</a></li>
+	              <li><a href="#">HOW TO BREW</a></li>
+	            </ul>
+
+	        </section> 
+
+			
 			<hr>
+
+
+
 			<section class="grid-col-1of4">
 				<h2>Product Listing</h2>
 
 				<h3>CSS selector:</h3>
-				<p></p>
+					<p>.prdouct-listing</p>
 
 				<h3>Sample Code:</h3> 
-				<code>html code: 
-
-				</code> 
+					<code>
+						&lt;div id="products" class="products"&gt;<br>
+		                &lt;ul class ="product-listing"&gt; &lt;li class="product-listing"&gt;<br>
+		                &lt;li class="product-listing"&gt;<br>
+		                &lt;ul&gt;<br>
+		                &lt;li&gt; &lt;a href="#"&gt;&lt;img src="img/placeholder.jpg&gt; &lt;/a&gt;&lt;/li&gt;<br>
+		                &lt;/ul&gt;<br>
+		                &lt;/div&gt;
+		            </code>
 
 				<h3>Rendered element:</h3>
-				<img src="img/goji.jpg">
+					<div id="products" class="products">
+		              <ul class="product-listing">
+		              <li class="product-listing">
+		                <ul>
+		                 <li><a href="#"><img src="img/img1.jpg" alt="img is missing"/></a></li>
+		                 <li><a href="#"><img src="img/img2.jpg" alt="img is missing"/></a></li>
+		                 <li><a href="#"><img src="img/img3.jpg" alt="img is missing"/></a></li>
+		                 <li><a href="#"><img src="img/img4.jpg" alt="img is missing"/></a></li>
+		                 <li><a href="#"><img src="img/img5.jpg" alt="img is missing"/></a></li>
+		                 <li><a href="#"><img src="img/img6.jpg" alt="img is missing"/></a></li>
+		                 <li><a href="#"><img src="img/goji.jpg" alt="img is missing"/></a></li>
+		                 <li><a href="#"><img src="img/matcha.png" alt="img is missing"/></a></li>
+		                </ul>
+		            </div>
+
 				<h4>Goji Green Blossom Tea</h4> 
 				<p>Description of the tea</p> 
 				<h4>Ingredients List:</h4> 
