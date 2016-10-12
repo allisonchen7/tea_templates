@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name"viewport" content="width=device-width, intitial-scale=1.0">
+
+		<title>REFRESH TEA</title>
+
+		<link rel="stylesheet" href="css/noramlize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="styesheet" href="css/grids.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Ek+Mukta:200" rel="stylesheet">
+
+
+
+	</head>
+
+	<body> 
+		<h1 id="title">REFRESH TEA STYLE GUIDE</h1>
+		
+		<nav class="nav-main grid-row"> 
+
+					<a href="#interactive_elements" class="nav_button" class="nav-main-item">Interactive Elements</a>
+					<a href="#text_elements" class="nav_button" >Text Elements</a>
+					<a href="#combined_elements" class="nav_button">Combined Elements</a>
+					<a href="http://www.sfu.ca/~adc6/339/P01/References/References.html" class="nav_button" >
+					References</a>
+					<a href="http://www.sfu.ca/~adc6/339/P01/Wireframes/#g=1&p=watch_quiz">Interactive Wireframes</a>
+		</nav>
+		<div class="grid-row">
+		<section id="interactive_elements" class="grid-col-2of3">
+			
+			<section id="link" class="grid-col-1of2">
+				<h2>In-text link</h2>
+
+				<h3>CSS selector:</h3>
+				<p>a</p>
+
+				<h3>Sample Code:</h3> 
+				<code>a:link, a:visited {
+				<br>
+				color: rgb(255, 51, 153);
+				<br>
+				text-decoration: none;
+				<br>
+				}
+				<br>
+				<br>
+				a:hover, a:active {
+				<br>
+				color: rgb(178, 40, 116);
+				<br>
+				text-decoration: none;
+				<br>
+				}
+				</code> 
+
+				<h3>Rendered element:</h3>
+				<a href="#link">Link</a>
+
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Navigation Button</h2>
+
+				<h3>CSS selector:</h3>
+				<p>.nav_button</p>
+
+				<h3>Sample Code:</h3> 
+				<code>
+				.nav_button {
+				<br>
+				padding: 2em;
+				<br>
+				}</code> 
+
+				<h3>Rendered element:</h3>
+
+			</section> 
+			<hr>
+			<section id="reset" class="grid-col-1of4">
+				<h2 id="submit">Submit/Reset Buttons</h2>
+
+				<h3>CSS selector:</h3>
+				<p>.submit_button, .reset_button</p>
+
+				<h3>Sample Code:</h3> 
+				<code>
+				.submit_button { 
+					<br>
+					border: 1px solid rgb(255, 51, 153);
+					<br>
+					background: white;
+					<br>
+					padding: 0.2em 1em;
+					<br>
+					border-radius: 0.1em;
+					<br>
+					}
+					<br>
+					<br>
+					.reset_button {
+					<br>
+					color: gray;
+					<br>
+					border: 1px solid lightgray;
+					<br>
+					background: white;
+					<br>
+					padding: 0.2em 1em;
+					<br>
+					border-radius: 0.1em;
+				</code> 
+
+				<h3>Rendered element:</h3>
+				<a href="#submit" class="submit_button">SUBMIT</a> 
+				<a href="#reset" class="reset_button">RESET</a>
+ 
+
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Text Input Field and Label</h2>
+
+				<h3>CSS selector:</h3>
+				<p>input</p>
+
+				<h3>Sample Code:</h3> 
+				<code>
+					input {
+					<br>
+					font-size: 1em;
+					<br>
+					color: rgb(255, 51, 153);
+					<br>
+					}
+
+				</code> 
+
+				<h3>Rendered element:</h3>
+
+					<form>
+						First name:<br>
+						<input type="text" name="firstname" value="Jane">
+						<input type="submit" value="SUBMIT" class="submit_button">
+						<input type="reset" value="RESET" class="reset_button">
+					</form>
+
+			</section> 
+
+		</section> 
+		<hr>
+		<section id="text_elements">
+			
+			<section class="grid-col-1of4">
+				<h2>Heading 1</h2>
+
+				<h3>CSS selector:</h3>
+				<p>h1, h2, h3</p>
+
+				<h3>Sample Code:</h3> 
+				<code>   
+					h1, h2, h3 { 
+					<br>
+					text-align: left;
+					<br>
+					}
+				</code> 
+
+				<h3>Rendered element:</h3>
+				<h1>Heading 1</h1>
+				<h2>Heading 2</h2>
+				<h3>Heading 3</h3>
+				
+				
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Paragraph</h2>
+
+				<h3>CSS selector:</h3>
+				<p>p</p>
+
+				<h3>Sample Code:</h3> 
+				<code>   
+					p {
+					<br>
+					text-align: left;
+					<br>
+					}
+				</code> 
+
+				<h3>Rendered element:</h3>
+				<p>This is a paragraph using this style guide. Please continue reading to learn more about this guide.</p>
+
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Bulleted List</h2>
+
+				<h3>CSS selector:</h3>
+				<p>ul, .list</p>
+
+				<h3>Sample Code:</h3> 
+				<code>
+					ul.list {
+					<br>
+					list-style-type: square;
+					<br>
+					}
+
+				</code> 
+
+				<h3>Rendered element:</h3>
+					<ul class="list">
+						<li>Point 1</li>
+						<li>Point 2</li> 
+						<li>Point 3</li>
+					</ul>
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Numbered list</h2>
+
+				<h3>CSS selector:</h3>
+				<p>ol, ol.list_number</p>
+
+				<h3>Sample Code:</h3> 
+				<code>
+					ol.list_number {
+					<br>
+					list-style: lower-alpha;
+					<br>
+					}
+				</code> 
+
+				<h3>Rendered element:</h3>
+					<ol class="list_number">
+						<li>Point 1</li>
+						<li>Point 2</li>
+						<li>Point 3</li>
+
+			</section> 
+
+		</section> 
+		<hr>
+		<section id="combined_elements">
+			
+			<section class="grid-col-1of4">
+				<h2>Main Navigation</h2>
+
+				<h3>CSS selector:</h3>
+				<p>nav, nav_button</p>
+
+				<h3>Sample Code:</h3> 
+				<code>
+				.nav_button {
+				<br>
+				padding: 2em;
+				<br>
+				}
+			</code> 
+
+				<h3>Rendered element:</h3>
+				<a href="#interactive_elements" class="nav_button" class="nav-main-item">Interactive Elements</a>
+					<a href="#text_elements" class="nav_button" >Text Elements</a>
+					<a href="#combined_elements" class="nav_button">Combined Elements</a>
+					<a href="http://www.sfu.ca/~adc6/339/P01/References/References.html" class="nav_button" >
+					References</a>
+					<a href="http://www.sfu.ca/~adc6/339/P01/Wireframes/#g=1&p=watch_quiz">Interactive Wireframes</a>
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Product Listing</h2>
+
+				<h3>CSS selector:</h3>
+				<p></p>
+
+				<h3>Sample Code:</h3> 
+				<code>html code: 
+
+				</code> 
+
+				<h3>Rendered element:</h3>
+				<img src="img/goji.jpg">
+				<h4>Goji Green Blossom Tea</h4> 
+				<p>Description of the tea</p> 
+				<h4>Ingredients List:</h4> 
+				<ul> 
+					<li>Ingredient 1</li>
+					<li>Ingredient 2</li> 
+					<li>Ingredient 3</li>
+				</ul>
+				<h4>Brewing Time:</h4>
+				Let steep for 3 mins.
+
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Website grid structure</h2>
+
+				<h3>CSS selector:</h3>
+				<p>.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3</p>
+
+				<h3>Sample Code:</h3> 
+				<code></code> 
+
+				<h3>Rendered element:</h3>
+
+			</section> 
+
+		</section> 
+
+
+				
+
+
+
+	</body>
+</html>
+
+

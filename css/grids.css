@@ -1,0 +1,61 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+[class^='grid-col-'] {
+
+	float: left;
+	padding: 0;
+}
+
+.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3 {
+	width: 100%;
+} 
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+
+
+}
+
+.grid-col-1of4 > .nav-main-item {
+	width: 100%;
+}
+
+@media (min-width: 48.75em) {
+
+
+	.grid-col-1of2 {
+		width: 50%;
+	}
+
+
+	.grid-col-1of2:last-of-type {
+		padding-left: 1rem;
+	}
+
+
+
+
+}
+
+
+@media (min-width: 73em) {
+
+
+	.grid-col-2of3 {
+		width: 66.666%;
+	}
+
+	.grid-col-1of3 {
+		width: 33.333%;
+		padding-left: 1rem;
+	}
+
+	.grid-col-1of4 {
+		width: 25%;
+	}
+
+}
