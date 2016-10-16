@@ -22,12 +22,13 @@ img {
 
 /* INTERACTIVE ELEMENTS */
 a:link, a:visited {
-	color: rgb(255, 51, 153);
+  color: rgb(90, 117, 47);
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	color: rgb(178, 50, 116);
+  color: rgb(65, 81, 33);
+
 	text-decoration: none;
 }
 
@@ -36,7 +37,7 @@ a:hover, a:active {
 }
 
 .submit_button { 
-	border: 1px solid rgb(255, 51, 153);
+	border: 1px solid rgb(90, 117, 47);
 	background: white;
 	padding: 0.2em 1em;
 	border-radius: 0.1em;
@@ -52,7 +53,7 @@ a:hover, a:active {
 
 input {
 	font-size: 1em;
-	color: rgb(255, 51, 153);
+	color: rgb(90, 117, 47);
 }
 
 form, input {
@@ -104,39 +105,18 @@ ul.main-navigation{
 
 /* PRODUCT LISTING */
 .product-listing{
-  width: 1200px;
-  margin: 0 auto;
-  overflow: auto;
+  display: inline-block;
+  padding: 1rem 3rem 1rem 3rem;
+
 }
 
-.product-listing ul {
-  list-style-type: none;
-}
-
-.product-listing li img {
-  width: 20%;
-  float: left;
-  margin: 20px;
-  border: 0px solid #fff;
-
-  -webkit-transition: box-shadow 0.5s ease;
-  -moz-transition: box-shadow 0.5s ease;
-  -o-transition: box-shadow 0.5s ease;
-  -ms-transition: box-shadow 0.5s ease;
-  transition: box-shadow 0.5s ease;
-}
-
-.product-listing li img:hover {
-  -webkit-box-shadow: 0px 0px 7px #5a752f;
-  box-shadow: 0px 0px 7px #5a752f;
-}
 
 
 /**MAKE IT RESPONSIVE**/
-@media screen and (max-width: 980px) {  
+@media screen and (max-width: 500px) {  
   .product-listing{
 	  width: 97%;
-	  padding: 1% 4%;
+	  padding: 3rem;
 	  
 }
 
@@ -170,7 +150,6 @@ ul.main-navigation{
 @media screen and (max-width: 600px) {
   .product-listing{
 	  width: 97%;
-	  padding-left: 1rem;
 	  padding: 1% 4%;
 }
 
