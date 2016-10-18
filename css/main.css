@@ -51,6 +51,32 @@ a:hover, a:active {
 	border-radius: 0.1em;
 }
 
+.main-navigation li a:hover {
+  background-color: #5a752f;
+  color: white;
+}
+
+/* 
+DEFAULT BUTTON
+*/
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #FFF; 
+  border-radius: 0.25em; /*rounded edges*/
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out; /*time it takes and effect during the transition it takes (from not-hovered status to houvered) */
+  transition: background-color 0.2s ease-out; /*when it is hovered status*/
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #5a752f;/*colour of button*/
+  color: #FFF; /*colour of text*/
+}
+
+
+
 input {
 	font-size: 1em;
 	color: rgb(90, 117, 47);
@@ -90,10 +116,6 @@ ol.list_number {
   text-decoration: none;
 }
 
-.main-navigation li a:hover {
-  background-color: #5a752f;
-  color: white;
-}
 
 ul.main-navigation{
   list-style-type: none;
