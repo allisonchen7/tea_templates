@@ -35,6 +35,23 @@ a:hover, a:active {
 .nav_button {
 	padding: 2em;
 }
+
+/*
+MAIN NAV
+*/
+.main-navigation li a{
+  display: block;
+  color: #5a752f;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.main-navigation li a:hover {
+  background-color: #5a752f;
+  color: white;
+}
+
+
 /* 
 SUBMIT AND RESET BUTTONS
 */
