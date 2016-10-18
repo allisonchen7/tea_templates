@@ -35,8 +35,32 @@ a:hover, a:active {
 .nav_button {
 	padding: 2em;
 }
+/* 
+SUBMIT AND RESET BUTTONS
+*/
+.submit_button {
+	border: 0px;
+	background: white;
+	padding: 0.2em 1em;
+	border-radius: 0.1em;
+}
 
-.submit_button { 
+.reset_button {
+	color: #5a752f;
+	border: 0px;
+	background: white;
+	padding: 0.2em 1em;
+	border-radius: 0.1em;
+}
+
+.submit_button:hover, .reset_button:hover {
+  background-color: #5a752f;
+  color: white;
+  border-radius: 0.1em;
+}
+
+
+/*.submit_button { 
 	border: 1px solid rgb(90, 117, 47);
 	background: white;
 	padding: 0.2em 1em;
@@ -54,7 +78,7 @@ a:hover, a:active {
 .main-navigation li a:hover {
   background-color: #5a752f;
   color: white;
-}
+}*/
 
 /* 
 DEFAULT BUTTON
