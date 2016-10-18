@@ -137,6 +137,10 @@ h1, h2, h3 {
 	text-align: left;
 }
 
+h4 {
+  font-size: 1.3em;
+}
+
 p {
 	text-align: left;
 }
@@ -174,7 +178,7 @@ ul.main-navigation{
 }
 
   .text-listing { 
-    padding-left: 2rem;
+    padding-left: 1.6rem;
   }
 
 
@@ -183,10 +187,8 @@ ul.main-navigation{
 @media screen and (max-width: 500px) {  
   .product-listing{
 	  width: 97%;
-	  padding: 3rem;
 	  
 }
-
 
 
   .pagewrap {
