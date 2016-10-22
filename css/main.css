@@ -1,16 +1,14 @@
 /* GENERAL STYLING */
-#title {
+.title {
 	text-align: center;
+
 }
 
 body {
 	font-family: 'Ek Mukta', Helvetica, sans-serif;
-	padding: 1rem;
-}
-
-section code{ 
-	background-color: #EEE;
-	padding: 0.5em;
+  padding-top: 10rem;
+  }
+	'/*padding: 0.2rem; */
 }
 
 img {
@@ -28,29 +26,40 @@ a:link, a:visited {
 
 a:hover, a:active {
   color: rgb(65, 81, 33);
-
 	text-decoration: none;
 }
 
-.nav_button {
-	padding: 2em;
+
+/* MAIN NAV */
+
+.nav-main {
+  position: fixed;
+  background-color: white;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
 }
 
-/*
-MAIN NAV
-*/
-.main-navigation li a{
-  display: block;
+.main-nav-section {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  text-align: center;
+}
+.nav-main-item {
+  display: inline-block;
   color: #5a752f;
-  padding: 8px 16px;
-  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  text-align:center;
+
 }
 
-.main-navigation li a:hover {
-  background-color: #5a752f;
-  color: white;
-}
 
+.nav-main-item:hover, .nav-main-item:active {
+  border-bottom: rgb(65, 81, 33) 3px solid;
+}
 
 /* 
 SUBMIT AND RESET BUTTONS
@@ -97,24 +106,6 @@ SUBMIT AND RESET BUTTONS
   color: white;
 }*/
 
-/* 
-DEFAULT BUTTON
-*/
-.button-nav {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  color: #FFF;
-  background-color: #FFF; 
-  border-radius: 0.25em; /*rounded edges*/
-  text-decoration: none;
-  -webkit-transition: background-color 0.2s ease-out; /*time it takes and effect during the transition it takes (from not-hovered status to houvered) */
-  transition: background-color 0.2s ease-out; /*when it is hovered status*/
-}
-
-.button-nav:hover, .button-nav:focus {
-  background-color: #5a752f;/*colour of button*/
-  color: #FFF; /*colour of text*/
-}
 
 
 
@@ -129,12 +120,18 @@ form, input {
 
 
 /* TEXT ELEMENTS */
+
 h1{ 
-	font-size: 2em;
+	font-size: 2.2em;
+  letter-spacing: 2px;
+
 }
 
 h1, h2, h3 { 
 	text-align: left;
+}
+
+h2, h3 {
 }
 
 h4 {
@@ -143,6 +140,7 @@ h4 {
 
 p {
 	text-align: left;
+  font-weight: 400;
 }
 
 ul.list {
@@ -153,24 +151,20 @@ ol.list_number {
 	list-style: lower-alpha;
 }
 
-/* NEW NAVIGATION */
-.main-navigation li a{
-  display: block;
-  color: #5a752f;
-  padding: 8px 16px;
-  text-decoration: none;
+strong { 
+  font-weight: 800;
 }
 
-
-ul.main-navigation{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 300px;
-  background-color: #FFF
-}
 
 /* PRODUCT LISTING */
+
+/*.products {
+  display: flex;
+  align-items: center;
+
+
+}*/
+
 .product-listing{
   display: inline-block;
   padding: 1rem 3rem 1rem 3rem;
@@ -178,12 +172,12 @@ ul.main-navigation{
 }
 
   .text-listing { 
-    padding-left: 1.6rem;
+    padding-left: 1.3rem;
   }
 
 
 
-/**MAKE IT RESPONSIVE**/
+/**MAKE IT RESPONSIVE*
 @media screen and (max-width: 500px) {  
   .product-listing{
 	  width: 97%;
@@ -217,7 +211,7 @@ ul.main-navigation{
   }
 }
 
-/* for 700px or less */
+/* for 700px or less *
 @media screen and (max-width: 600px) {
   .product-listing{
 	  width: 97%;
@@ -240,3 +234,4 @@ ul.main-navigation{
     float: none;
   }
 }
+*/
