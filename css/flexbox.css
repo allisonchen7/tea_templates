@@ -22,6 +22,8 @@
 	justify-content: space-around;
 }
 
+/* nav bar */
+
 .box-item-nav {
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
@@ -38,6 +40,19 @@
 	padding: 0 1rem;
 }
 
+/* product listing */
+
+.box-item-product{
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;	
+}
+
+.box-two-column {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;	
+}
 
 @media (max-width: 30em) {
 
