@@ -40,6 +40,7 @@
 	padding: 0 1rem;
 }
 
+<<<<<<< Updated upstream
 /* product listing */
 
 .box-item-product{
@@ -52,6 +53,37 @@
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;	
+=======
+.logo {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+}
+
+.box-logo-nav {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+
+}
+
+
+.box-logo-text {
+
+	-webkit-flex: 1 1 18em;
+	-ms-flex: 1 1 18em;
+	flex: 1 1 18em;
+
+	padding: 0 1rem;
+>>>>>>> Stashed changes
 }
 
 @media (max-width: 30em) {
