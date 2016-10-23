@@ -22,11 +22,13 @@ img {
 a:link, a:visited {
   color: rgb(90, 117, 47);
 	text-decoration: none;
+  font-size: 1.2rem;
 }
 
 a:hover, a:active {
   color: rgb(65, 81, 33);
 	text-decoration: none;
+  font-size: 1.2rem;
 }
 
 /* TOP LOGO*/
@@ -122,7 +124,7 @@ a.nav-logo-item{
   display: inline-block;
   color: #5a752f;
   padding: 0.25rem 0.5rem;
-  text-align:center;
+  text-align: center;
 
 }
 
@@ -134,7 +136,6 @@ a.nav-logo-item{
 /* product listing */
 
 .product-listing {
-  position: fixed;
   left: 0;
   right: 0;
 
@@ -143,12 +144,20 @@ a.nav-logo-item{
 .product-listing-item {
   display: inline-block;
   padding: 0.25rem;
+  text-align: center;
+}
+
+.product-heading {
+  text-align: center;
+}
+.col1 {
+  height: 100%;
+  margin-left: 2rem;
 }
 
 /* two column pages */
 
 .two-column {
-  position: fixed;
   left: 0;
   right: 0;
 }
@@ -229,13 +238,28 @@ h1, h2, h3 {
 	text-align: left;
 }
 
+h3 { 
+  font-size: 1.2rem;
+  font-weight: 200;
+
+}
 h4 {
-  font-size: 1.3em;
+  font-size: 1.1em;
+  font-weight: 200;
+  margin: 0;
 }
 
 p {
-	text-align: left;
-  font-weight: 400;
+  display: inline-block;
+	text-align: center;
+  font-weight: 200;
+  color:  #696969;
+  font-size: 0.8rem;
+}
+
+ul li {
+  font-size: 0.9rem;
+  color: #696969;
 }
 
 
