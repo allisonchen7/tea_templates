@@ -175,6 +175,10 @@ strong {
     padding-left: 1.3rem;
   }
 
+ul li {
+  list-style: none;
+}
+
 
 
 /**MAKE IT RESPONSIVE*
