@@ -29,13 +29,83 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
+/* TOP LOGO*/
+.logo-main {
+  position: fixed;
+  background-color: white;
+  top: 2rem;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
 
+a.nav-logo-item{
+  font-size: 2.2em;
+  letter-spacing: 2px;
+  color: black;
+}
+
+
+.nav-logo-item {
+  display: inline-block;
+  color: #5a752f;
+  padding: 0.25rem 0.5rem;
+  text-align:center;
+}
+
+.top-logo{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.top-logo-section{
+  position: fixed;
+  background-color: white;
+  top: 0;
+  text-align: center;
+  color: black;
+}
+
+/* ABOUT US*/
+.about{
+  text-align:center;
+  border-top: rgb(65, 81, 33) 1px solid;
+  letter-spacing: 2px;
+}
+
+.whatwedo{
+  display: inline-block;
+  color: #5a752f;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.7rem;
+  
+}
+
+.explanation1{
+  background-image: url(../img/whatwedo.png);
+  padding: 100px;
+  padding-left: 300px;
+  padding-right: 700px;
+}
+
+.explanation2{
+  background-image: url(../img/whatwedo.png);
+  padding: 100px;
+  padding-left: 300px;
+  padding-right: 700px;
+}
 /* MAIN NAV */
 
 .nav-main {
   position: fixed;
   background-color: white;
-  top: 4rem;
+  top: 6rem;
   left: 0;
   right: 0;
   z-index: 10;
