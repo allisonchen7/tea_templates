@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name"viewport" content="width=device-width, intitial-scale=1.0">
+
+		<title>REFRESH TEA</title>
+
+		<link rel="stylesheet" href="css/noramlize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="styesheet" href="css/grids.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Ek+Mukta:200" rel="stylesheet">
+
+
+
+	</head>
+
+	<body> 
+		<h1 id="title">REFRESH TEA STYLE GUIDE</h1>
+		
+		<nav class="nav-main grid-row"> 
+			<div class="grid-col-1of4">
+				<a href="#interactive_elements" class="nav-main-item" class="nav-main-item bg1">Interactive Elements</a>
+			</div>
+
+			<div class="grid-col-1of4">
+				<a href="#text_elements" class="nav-main-item bg2">Text Elements</a>
+			</div>
+
+			<div class="grid-col-1of4">
+				<a href="#combined_elements" class="nav-main-item bg3">Combined Elements</a>
+			</div>
+
+			<div class="grid-col-1of4">
+				<a href="http://www.sfu.ca/~adc6/339/P01/References/References.html bg2" class="nav-main-item" >
+					References</a>
+			</div>
+		
+		</nav>
+
+		<div class="grid-row">
+		
+		<section id="interactive_elements" class="grid-col-2of3">
+			
+			<section id="link" class="grid-col-1of2">
+				<h2>In-text link</h2>
+
+				<h3>CSS selector:</h3>
+				<p>none</p>
+
+				<h3>Sample Code:</h3> 
+					<code>&lt;a href="type the link here"&gt; Title the link &lt;/a&gt;</code>
+
+				<h3>Rendered element:</h3>
+				 	<p>Interactive Prototype:	<strong><a href="---">Link to TeaShop</a></strong></p>
+		            <p>Other Tea stores: <strong><a href="http://www.teavana.com/us/en/home">Teavana</a></strong> 
+		                						<strong><a href="https://www.davidstea.com/">David's Tea</a></strong> </p>
+
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Navigation Button</h2>
+
+				<h3>CSS selector:</h3>
+				<p>.nav_button</p>
+
+				<h3>Sample Code:</h3> 
+					<code>&lt;a class="button-nav" href="#"&gt;Default Button&lt;/a&gt;</code>
+
+				<h3>Rendered element:</h3>
+					<a class="button-nav" href="#">Default Button</a>
+
+			</section> 
+			<hr>
+			<section id="reset" class="grid-col-1of4">
+				<h2 id="submit">Submit/Reset Buttons</h2>
+
+				<h3>CSS selector:</h3>
+				<p>.submit_button, .reset_button</p>
+
+				<h3>Sample Code:</h3> 
+				<code> &lt;a href="submit" class="submit_button"&gt;Submit&lt;/a&gt;
+				</code> 
+
+				<h3>Rendered element:</h3>
+				<a href="#submit" class="submit_button">Submit</a> 
+				<a href="#reset" class="reset_button">Reset</a>
+ 
+
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Text Input Field and Label</h2>
+
+				<h3>CSS selector:</h3>
+				<p>input</p>
+
+				<h3>Sample Code:</h3> 
+				<code>
+					&lt;inupt type="text" value="name" placeholder="Jessica"&gt;
+					&lt;inupt type="submit" value="Submit" class="submit_button"&gt;
+				</code> 
+
+				<h3>Rendered element:</h3>
+
+					<form>
+						First name:<br>
+						<input type="text" name = "name" placeholder ="Jessica">
+						<input type="submit" value="Submit" class="submit_button">
+						<input type="reset" value="Reset" class="reset_button">
+					</form>
+
+			</section> 
+
+		</section> 
+		<hr>
+		<section id="text_elements">
+			
+			<section class="grid-col-1of4">
+				<h2>Heading 1</h2>
+
+				<h3>CSS selector:</h3>
+				<p>h1, h2, h3</p>
+
+				<h3>Sample Code:</h3> 
+				<code>   
+					h1, h2, h3 { 
+					<br>
+					text-align: left;
+					<br>
+					}
+				</code> 
+
+				<h3>Rendered element:</h3>
+				<h1>Heading 1</h1>
+				<h2>Heading 2</h2>
+				<h3>Heading 3</h3>
+				
+				
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Paragraph</h2>
+
+				<h3>CSS selector:</h3>
+				<p>p</p>
+
+				<h3>Sample Code:</h3> 
+				<code>   
+					p {
+					<br>
+					text-align: left;
+					<br>
+					}
+				</code> 
+
+				<h3>Rendered element:</h3>
+				<p>This is a paragraph using this style guide. Please continue reading to learn more about this guide.</p>
+
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Bulleted List</h2>
+
+				<h3>CSS selector:</h3>
+				<p>ul, .list</p>
+
+				<h3>Sample Code:</h3> 
+				<code>
+					ul.list {
+					<br>
+					list-style-type: square;
+					<br>
+					}
+
+				</code> 
+
+				<h3>Rendered element:</h3>
+					<ul class="list">
+						<li>Point 1</li>
+						<li>Point 2</li> 
+						<li>Point 3</li>
+					</ul>
+			</section> 
+			<hr>
+			<section class="grid-col-1of4">
+				<h2>Numbered list</h2>
+
+				<h3>CSS selector:</h3>
+				<p>ol, ol.list_number</p>
+
+				<h3>Sample Code:</h3> 
+				<code>
+					ol.list_number {
+					<br>
+					list-style: lower-alpha;
+					<br>
+					}
+				</code> 
+
+				<h3>Rendered element:</h3>
+					<ol class="list_number">
+						<li>Point 1</li>
+						<li>Point 2</li>
+						<li>Point 3</li>
+
+			</section> 
+
+		</section> 
+		<hr>
+		<section id="combined_elements">
+			
+			<section class="grid-col-1of4">
+				<h2>Main Navigation</h2>
+
+				<h3>CSS selector:</h3>
+					<p>ul.main-navigation</p>
+            		<p>.main-navigation li a{}</p>
+            		<p>.main-navigation li a:hover{}</p>
+
+				<h3>Sample Code:</h3> 
+					<code>
+					&lt;li&gt;<br>&lt;ul class ="main-navigation"&gt; &lt;a href="new-arrival.asp"&gt;NEW ARRIVAL&lt;/a&gt;&lt;/ul&gt;<br>&lt;/li&gt;
+					</code>
+
+
+				<h3>Rendered element:</h3>
+				
+
+				<ul class="main-navigation">
+	              <li><a href="#">NEW ARRIVALS</a></li>
+	              <li><a href="#">TEA</a></li>
+	              <li><a href="#">FIND A RIGHT TEA FOR YOU</a></li>
+	              <li><a href="#">HOW TO BREW</a></li>
+	            </ul>
+
+	        </section> 
+
+			
+			<hr>
+
+
+
+			<section class="grid-col-1of4">
+				<h2>Product Listing</h2>
+
+				<h3>CSS selector:</h3>
+					<p>.product-listing</p>
+
+				<h3>Sample Code:</h3> 
+					<code>
+						&lt;div id="products" class="products"&gt;<br>
+		                &lt;ul class ="product-listing"&gt; &lt;li class="product-listing"&gt;<br>
+		                &lt;li class="product-listing"&gt;<br>
+		                &lt;ul&gt;<br>
+		                &lt;li&gt; &lt;a href="#"&gt;&lt;img src="img/placeholder.jpg&gt; &lt;/a&gt;&lt;/li&gt;<br>
+		                &lt;/ul&gt;<br>
+		                &lt;/div&gt;
+		            </code>
+
+				<h3>Rendered element:</h3>
+				<section class="products box">
+		              <section class="product-listing"
+		                 <a href="#"><img src="img/black_darjeeling.jpg" alt="Black Darjeeling Tea"/></a></li>
+		                 <section class="text-listing">
+
+							<h4>Goji Green Blossom Tea</h4> 
+							<p>Description of the tea</p> 
+							<h4>Ingredients List:</h4> 
+							<ul> 
+								<li>Ingredient 1</li>
+								<li>Ingredient 2</li> 
+								<li>Ingredient 3</li>
+							</ul>
+							<h4>Brewing Time:</h4>
+							Let steep for 3 mins.
+						</section>
+					</section>
+					<section class="product-listing">
+							<a href="#"><img src="img/black_dragon.jpg" alt="Black Dragon Tea"/></a>
+						<section class="text-listing">	
+						 	<h4>Goji Green Blossom Tea</h4> 
+								<p>Description of the tea</p> 
+							<h4>Ingredients List:</h4> 
+								<ul> 
+									<li>Ingredient 1</li>
+									<li>Ingredient 2</li> 
+									<li>Ingredient 3</li>
+								</ul>
+							<h4>Brewing Time:</h4>
+							<p>Let steep for 3 mins.</p>
+						</section>
+					</section>
+					<section class="product-listing">
+		                 <a href="#"><img src="img/black_english.jpg" alt="English Breakfast Black Tea"/></a>
+		                 <section class="text-listing">
+		                 	<h4>Goji Green Blossom Tea</h4> 
+								<p>Description of the tea</p> 
+							<h4>Ingredients List:</h4> 
+								<ul> 
+									<li>Ingredient 1</li>
+									<li>Ingredient 2</li> 
+									<li>Ingredient 3</li>
+								</ul>
+							<h4>Brewing Time:</h4>
+								<p>Let steep for 3 mins.</p>
+						</section>
+					</section>
+					<section class="product-listing">
+		                 <a href="#"><img src="img/black_tiramisu.jpg" alt="Tiramisu Black Tea"/></a>
+		                 <section class="text-listing">
+
+			                 <h4>Goji Green Blossom Tea</h4> 
+								<p>Description of the tea</p> 
+							 <h4>Ingredients List:</h4> 
+								<ul> 
+									<li>Ingredient 1</li>
+									<li>Ingredient 2</li> 
+									<li>Ingredient 3</li>
+								</ul>
+							 <h4>Brewing Time:</h4>
+								<p>Let steep for 3 mins.</p>
+						</section>
+					</section>
+				</section>
+		                </ul>
+		            </div>
+
+			</section> 
+			<hr>
+
+
+		</section> 
+
+
+				
+
+
+
+	</body>
+</html>
+
+
