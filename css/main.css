@@ -8,17 +8,21 @@
 
 body {
 	font-family: 'Ek Mukta', Helvetica, sans-serif;
-  padding-top: 10rem;
+  padding-top: 9rem;
   }
 	'/*padding: 0.2rem; */
-}
+
 
 img {
-	width: auto;
+  max-width: 100%;
 	height: auto;
-	max-width: ;
+
 }
 
+.banner {
+  max-width: 100%;
+  height: auto;
+}
 
 /* INTERACTIVE ELEMENTS */
 a:link, a:visited {
@@ -56,7 +60,7 @@ a.nav-logo-item{
   display: inline-block;
   color: #5a752f;
   padding: 0 0.5rem 0.3rem 0.5rem;
-  text-align:center;
+  text-align: center;
 }
 
 .top-logo{
@@ -115,7 +119,7 @@ a.nav-logo-item{
   left: 0;
   right: 0;
   z-index: 10;
-  box-shadow: 0 5px 5px rgba(184,184,184, 0.3);
+  box-shadow: 0 4px 5px rgba(184,184,184, 0.3);
 
 
 }
@@ -144,10 +148,15 @@ a.nav-logo-item{
 
 /* product listing */
 
+.product-nav {
+  margin-left: 5rem;
+  margin-right: 2rem;
+  float: left;
+}
+
 .product-listing {
   left: 0;
   right: 0;
-  margin-left: 5rem;
   margin-right: 5rem;
   flex-flow:;
 
@@ -163,10 +172,16 @@ a.nav-logo-item{
 .product-heading {
   text-align: center;
 }
-.col1 {
-  height: 100%;
-}
 
+/*.col1 {
+  height: 100%;
+
+
+}*/
+
+.col3 {
+  width: 100%;
+}
 
 
 .description {
@@ -174,7 +189,8 @@ a.nav-logo-item{
   text-align: center;
   font-weight: 200;
   color:  #696969;
-  font-size: 0.3rem;
+  font-size: 0.8rem;
+  padding-left: 0;
 }
 
 
@@ -272,15 +288,15 @@ h3 {
   font-weight: 400;
   text-transform: capitalize;
 =======
-  /*font-weight: 200;*/
 >>>>>>> origin/master
 
 }
 h4 {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: 400;
   margin: 0;
   text-transform: capitalize;
+  text-align: center;
 
 }
 
@@ -289,6 +305,8 @@ p {
   font-weight: 400;
   padding-left: 5rem;
 }
+
+
 
 /*
 ----------------I THINK U WANNA CHANGE THIS TO A CLASS (PRODUCT DESCRIPTION)
