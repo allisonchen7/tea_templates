@@ -90,7 +90,7 @@ a.nav-logo-item{
   letter-spacing: 2px;
 }
 
-.whatwedo{
+.break{
   display: inline-block;
   color: #5a752f;
   padding: 0.25rem 0.5rem;
@@ -98,19 +98,13 @@ a.nav-logo-item{
   
 }
 
-.explanation1{
+.fullbleed-section{
   background-image: url(../img/whatwedo.png);
   padding: 100px;
   padding-left: 300px;
   padding-right: 700px;
 }
 
-.explanation2{
-  background-image: url(../img/whatwedo.png);
-  padding: 100px;
-  padding-left: 300px;
-  padding-right: 700px;
-}
 /* MAIN NAV */
 
 .nav-main {
@@ -335,12 +329,8 @@ h1, h2, h3 {
 
 h3 { 
   font-size: 1.2rem;
-<<<<<<< HEAD
   font-weight: 400;
   text-transform: capitalize;
-=======
->>>>>>> origin/master
-
 }
 h4 {
   font-size: 1.1rem;
