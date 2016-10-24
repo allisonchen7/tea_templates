@@ -35,10 +35,12 @@ a:hover, a:active {
 .logo-main {
   position: fixed;
   background-color: white;
-  top: 2rem;
+  top: 0;
+  padding-top: 2rem;
   left: 0;
   right: 0;
   z-index: 10;
+  margin-top: 0;
 }
 
 a.nav-logo-item{
@@ -111,6 +113,8 @@ a.nav-logo-item{
   left: 0;
   right: 0;
   z-index: 10;
+  box-shadow: 0 5px 5px rgba(184,184,184, 0.3);
+
 
 }
 
@@ -119,12 +123,15 @@ a.nav-logo-item{
   background-color: white;
   top: 0;
   text-align: center;
+
 }
 .nav-main-item {
   display: inline-block;
   color: #5a752f;
   padding: 0.25rem 0.5rem;
   text-align: center;
+  margin-bottom: 1rem;
+
 
 }
 
@@ -138,6 +145,9 @@ a.nav-logo-item{
 .product-listing {
   left: 0;
   right: 0;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  flex-flow:;
 
 }
 
@@ -145,6 +155,7 @@ a.nav-logo-item{
   display: inline-block;
   padding: 0.25rem;
   text-align: center;
+  margin: 0.2rem;
 }
 
 .product-heading {
@@ -152,8 +163,18 @@ a.nav-logo-item{
 }
 .col1 {
   height: 100%;
-  margin-left: 2rem;
 }
+
+
+
+.description {
+  display: inline-block;
+  text-align: center;
+  font-weight: 200;
+  color:  #696969;
+  font-size: 0.3rem;
+}
+
 
 /* two column pages */
 
@@ -230,7 +251,7 @@ form, input {
 h1{ 
 	font-size: 2.3em;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 800;
 
 }
 
@@ -240,13 +261,16 @@ h1, h2, h3 {
 
 h3 { 
   font-size: 1.2rem;
-  font-weight: 200;
+  font-weight: 400;
+  text-transform: capitalize;
 
 }
 h4 {
   font-size: 1.1em;
-  font-weight: 200;
+  font-weight: 400;
   margin: 0;
+  text-transform: capitalize;
+
 }
 
 p {
@@ -258,8 +282,9 @@ p {
 }
 
 ul li {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #696969;
+  font-weight: 200;
 }
 
 
@@ -295,6 +320,7 @@ ul {
 ul li {
   list-style: none;
   text-align: left;
+  font-weight: 200;
 }
 
 
