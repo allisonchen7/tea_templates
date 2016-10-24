@@ -207,9 +207,13 @@ a.nav-bag-item {
   text-align: center;
 }
 
+.product-description-main {
+  margin-top: 3rem;
+}
+
 .product-description { 
   text-align: left;
-  padding-top: 3rem;
+  padding-top: ;
   padding-left: 0;
   margin-left: 0;
 }
