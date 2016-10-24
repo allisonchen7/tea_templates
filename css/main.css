@@ -84,32 +84,29 @@ a.nav-logo-item{
 
 /* ABOUT US*/
 .about{
+  margin-top: 2rem;
   text-align: center;
-  border-top: rgb(65, 81, 33) 1px solid;
+/*  border-top: rgb(65, 81, 33) 0.7px solid;*/
   letter-spacing: 2px;
 }
 
-.whatwedo{
+.break{
   display: inline-block;
   color: #5a752f;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.25rem;
   font-size: 1.7rem;
   
 }
 
-.explanation1{
+.fullbleed-section{
   background-image: url(../img/whatwedo.png);
-  padding: 100px;
-  padding-left: 300px;
-  padding-right: 700px;
+  padding: 7rem;
+  padding-left: 10rem;
+  padding-right: 50rem;
+  margin-top: 2rem;
 }
 
-.explanation2{
-  background-image: url(../img/whatwedo.png);
-  padding: 100px;
-  padding-left: 300px;
-  padding-right: 700px;
-}
+
 /* MAIN NAV */
 
 .nav-main {
@@ -408,6 +405,11 @@ SUBMIT AND RESET BUTTONS
   color: white;
 }*/
 
+divider{
+  text-align: center;
+  font-weight: 400;
+}
+
 special{
   font-size: 1.2em;
   letter-spacing: 2px;
@@ -463,7 +465,7 @@ h4 {
 p {
   text-align: left;
   font-weight: 400;
-  padding-left: 5rem;
+  padding-left: 0.5rem;
 }
 
 
