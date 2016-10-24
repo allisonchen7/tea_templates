@@ -246,9 +246,15 @@ a.nav-bag-item {
   right: 0;
 }
 
-.two-column-item {
+.two-column-item-a {
   display: inline-block;
-  padding: 0em;
+  padding-left: 0;
+}
+
+.two-column-item-b {
+  display: inline-block;
+  padding-right: ;
+  margin-right: 7rem;
 }
 
 /* 

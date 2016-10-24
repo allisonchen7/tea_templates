@@ -44,18 +44,25 @@
 /* product listing */
 
 .box-item-product{
-	-webkit-flex: 1 1 auto;
+	-webkit-flex: 3 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;	
 
 	padding: 0 1rem;
 }
 
-.box-two-column {
+.box-two-column-a {
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;	
 }
+
+.box-two-column-b {
+	-webkit-flex: 3 1 auto;
+	-ms-flex: 3 1 auto;
+	flex: 3 1 auto;	
+}
+
 .logo {
 	display: -webkit-flex;
 	display: -ms-flex;
