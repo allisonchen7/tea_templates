@@ -212,6 +212,26 @@ a.nav-bag-item {
   margin-left: 0;
 }
 
+.price {
+  text-align: left;
+  font-weight: bold;
+}
+
+.add_button {
+  border: 0px;
+  background: white;
+  padding: 0.2em 1em;
+  border-radius: 0.1em;
+}
+
+
+.submit_button:hover {
+  background-color: #5a752f;
+  color: white;
+  border-radius: 0.1em;
+}
+
+
 /*.col1 {
   height: 100%;
 
@@ -247,8 +267,9 @@ a.nav-bag-item {
 
 .two-column-item-b {
   display: inline-block;
-  padding-right: ;
+  padding-left: 0;
   margin-right: 7rem;
+  margin-left: 0;
 }
 
 /* 
