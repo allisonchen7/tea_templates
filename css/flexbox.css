@@ -108,20 +108,19 @@
 	-webkit-flex: 3 1 400px;
 	-ms-flex: 3 1 400px;
 	flex: 3 1 400px;
-	padding-left: 1rem;
-	margin-bottom: 5rem;
-
+	padding-left: 10rem;
+/*	margin-bottom: 1rem;*/
+	padding-top: 4rem;
 }
+
 .box-2grid-right {
 	-webkit-flex: 3 1 400px;
 	-ms-flex: 3 1 400px;
 	flex: 3 1 400px;
-	padding-right: 1rem;
-	padding-top: 0rem;	
+	padding-left: 10rem;
+	padding-top: 4rem;	
 	display: inline-block;
 	align-items: center;
-	padding-bottom: 10rem;
-
 }
 
 .box-logo-text {
