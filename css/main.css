@@ -4,6 +4,8 @@
 
 }
 
+
+
 body {
 	font-family: 'Ek Mukta', Helvetica, sans-serif;
   padding-top: 10rem;
@@ -233,7 +235,12 @@ SUBMIT AND RESET BUTTONS
   color: white;
 }*/
 
-
+special{
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  color: #5a752f;
+  padding-left: 5rem;
+}
 
 
 input {
@@ -261,8 +268,12 @@ h1, h2, h3 {
 
 h3 { 
   font-size: 1.2rem;
+<<<<<<< HEAD
   font-weight: 400;
   text-transform: capitalize;
+=======
+  /*font-weight: 200;*/
+>>>>>>> origin/master
 
 }
 h4 {
@@ -274,12 +285,20 @@ h4 {
 }
 
 p {
+  text-align: left;
+  font-weight: 400;
+  padding-left: 5rem;
+}
+
+/*
+----------------I THINK U WANNA CHANGE THIS TO A CLASS (PRODUCT DESCRIPTION)
+p {
   display: inline-block;
 	text-align: center;
   font-weight: 200;
   color:  #696969;
   font-size: 0.8rem;
-}
+}*/
 
 ul li {
   font-size: 0.85rem;
