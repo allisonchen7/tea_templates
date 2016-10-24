@@ -151,6 +151,7 @@ a.nav-logo-item{
 .product-nav {
   margin-left: 5rem;
   margin-right: 2rem;
+  margin-top: 2rem;
   float: left;
 }
 
@@ -158,15 +159,16 @@ a.nav-logo-item{
   left: 0;
   right: 0;
   margin-right: 5rem;
+  margin-top: 2rem;
   flex-flow:;
 
 }
 
 .product-listing-item {
   display: inline-block;
-  padding: 0.25rem;
+  padding: 0.2rem;
   text-align: center;
-  margin: 0.2rem;
+  margin: 0.1rem;
 }
 
 .product-heading {
