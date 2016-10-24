@@ -4,8 +4,6 @@
 
 }
 
-
-
 body {
 	font-family: 'Ek Mukta', Helvetica, sans-serif;
   padding-top: 9rem;
@@ -51,9 +49,10 @@ a:hover, a:active {
 }
 
 a.nav-logo-item{
-  font-size: 2.2em;
+  font-size: 2.3em;
   letter-spacing: 2px;
   color: black;
+  font-weight: 800;
 }
 
 
@@ -85,12 +84,12 @@ a.nav-logo-item{
 
 /* ABOUT US*/
 .about{
-  text-align:center;
+  text-align: center;
   border-top: rgb(65, 81, 33) 1px solid;
   letter-spacing: 2px;
 }
 
-.break{
+.whatwedo{
   display: inline-block;
   color: #5a752f;
   padding: 0.25rem 0.5rem;
@@ -98,13 +97,19 @@ a.nav-logo-item{
   
 }
 
-.fullbleed-section{
+.explanation1{
   background-image: url(../img/whatwedo.png);
   padding: 100px;
   padding-left: 300px;
   padding-right: 700px;
 }
 
+.explanation2{
+  background-image: url(../img/whatwedo.png);
+  padding: 100px;
+  padding-left: 300px;
+  padding-right: 700px;
+}
 /* MAIN NAV */
 
 .nav-main {
@@ -151,7 +156,6 @@ a.nav-bag-item {
 }
 
 .main-nav-section {
-  position: ;
   background-color: white;
   top: 0;
   text-align: center;
@@ -186,7 +190,6 @@ a.nav-bag-item {
   right: 0;
   margin-right: 5rem;
   margin-top: 2rem;
-  flex-flow:;
 
 }
 
@@ -220,17 +223,31 @@ a.nav-bag-item {
 .add_button {
   border: 0px;
   background: white;
-  padding: 0.2em 1em;
+  padding: 0.2em 0.5em;
   border-radius: 0.1em;
+  border: 1px solid;
 }
 
+.button_form {
+  margin-top: 1rem;
+  float: right;
 
-.submit_button:hover {
+}
+.add_button:hover {
   background-color: #5a752f;
   color: white;
   border-radius: 0.1em;
 }
 
+
+.product-review-main {
+  padding-top: 2.5em;
+}
+ 
+.product-description-h4 {
+  text-align: left;
+  font-weight: bold;
+}
 
 /*.col1 {
   height: 100%;
@@ -256,6 +273,8 @@ a.nav-bag-item {
 /* two column pages */
 
 .two-column {
+  display: flex;
+  flex-flow: row wrap;
   left: 0;
   right: 0;
 }
@@ -263,6 +282,7 @@ a.nav-bag-item {
 .two-column-item-a {
   display: inline-block;
   padding-left: 0;
+  order: 1;
 }
 
 .two-column-item-b {
@@ -270,6 +290,77 @@ a.nav-bag-item {
   padding-left: 0;
   margin-right: 7rem;
   margin-left: 0;
+  order: 2;
+}
+
+.two-column-item-c {
+  display: inline-block;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  order: 3;
+}
+
+.two-column-item-personal { 
+  padding-left: 5rem;
+  margin-right: 10rem;
+  flex: 2 1 auto;
+  margin-top: 3rem;
+}
+
+.two-column-item-summary { 
+    padding-right: 5rem;
+    padding-left: 10rem;
+    padding-top: 3rem;
+    background-color: #F8F8F8;
+  }
+
+.two-column-item-thanks {
+  padding-left: 5rem;
+  margin-right: 3rem;
+  flex: 2 auto;
+  margin-top: 3rem;
+
+}
+.three-column {
+  left: 0;
+  right: 0;
+  margin-left: 8rem;
+  margin-right: 8.5rem;
+}
+
+.three-column-item {
+  display: inline-block;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.column-top {
+  padding-top: 3rem;
+}
+
+.three-column-item-text {
+  display: inline-block;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 3rem; 
+}
+
+.bag-image {
+  margin-top: 2rem;
+}
+
+.subtotal { 
+  float: right;
+  margin-right: 7rem;
+  margin-bottom: 5rem;
+  }
+
+
+.summary-products {
+  display: inline-block;
 }
 
 /* 
@@ -328,10 +419,13 @@ special{
 input {
 	font-size: 1em;
 	color: rgb(90, 117, 47);
+  width: 100%;
+
 }
 
 form, input {
 	font-family: 'Ek Mukta', Helvetica, sans-serif;
+  width:;
 }
 
 
@@ -350,8 +444,12 @@ h1, h2, h3 {
 
 h3 { 
   font-size: 1.2rem;
+<<<<<<< HEAD
   font-weight: 400;
   text-transform: capitalize;
+=======
+>>>>>>> origin/master
+
 }
 h4 {
   font-size: 1.1rem;
@@ -367,7 +465,6 @@ p {
   font-weight: 400;
   padding-left: 5rem;
 }
-
 
 
 /*
