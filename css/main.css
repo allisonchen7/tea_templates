@@ -235,8 +235,6 @@ a.nav-bag-item {
   padding: 0.25rem 0.5rem;
   text-align: center;
   margin-bottom: 1rem;
-
-
 }
 
 .nav-main-item:hover, .nav-main-item:active {
@@ -282,6 +280,14 @@ a.nav-bag-item {
   padding-top: ;
   padding-left: 0;
   margin-left: 0;
+}
+
+.product-order-a {
+  order: 1;
+}
+
+.product-order-b {
+  order: 2;
 }
 
 .price {
@@ -390,6 +396,13 @@ textarea {
   order: 3;
 }
 
+@media (max-width: 586px){
+  .two-column-item-c {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .two-column-item-personal { 
   padding-left: 5rem;
   margin-right: 10rem;
@@ -416,6 +429,11 @@ textarea {
   right: 0;
   margin-left: 8rem;
   margin-right: 8.5rem;
+}
+
+@media (max-width: 490px) {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .three-column-item {
