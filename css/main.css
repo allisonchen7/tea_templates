@@ -102,7 +102,7 @@ a.nav-logo-item{
 
 /* ABOUT US*/
 .about{
-  margin-top: 2rem;
+ /* margin-top: 2rem;*/
   text-align: center;
 /*  border-top: rgb(65, 81, 33) 0.7px solid;*/
   letter-spacing: 2px;
@@ -159,6 +159,24 @@ a.nav-logo-item{
   margin-top: 2rem;
 }
 
+
+/*CONTACT PAGE*/
+.send-email {
+  text-align: center;
+  border: 0px;
+  background: white;
+  padding: 0.2em 0.5em;
+  border-radius: 0.1em;
+  border: 1px solid;
+}
+
+
+
+
+#comment {
+  width: 100%;
+  height: 5rem;
+}
 
 /* MAIN NAV */
 
@@ -330,6 +348,13 @@ textarea {
   font-size: 0.8rem;
   padding-left: 0;
 }
+
+/*contact : fill out to send us email*/
+.two-column-contact { 
+  flex: 2 1 auto;
+  margin-top: 3rem;
+}
+
 
 
 /* two column pages */
@@ -511,20 +536,17 @@ h1, h2, h3 {
 
 h3 { 
   font-size: 1.2rem;
-<<<<<<< HEAD
+
   font-weight: 400;
   text-transform: capitalize;
-=======
->>>>>>> origin/master
-
 }
+
 h4 {
   font-size: 1.1rem;
   font-weight: 400;
   margin: 0;
   text-transform: capitalize;
   text-align: center;
-
 }
 
 p {
@@ -588,13 +610,15 @@ ul li {
 
 
 
-/**MAKE IT RESPONSIVE*
+
 @media screen and (max-width: 500px) {  
   .product-listing{
 	  width: 97%;
-	  
 }
 
+  .two-column-contact {
+    padding: 10% 10%;
+  }
 
   .pagewrap {
     width: 94%;
@@ -622,27 +646,30 @@ ul li {
   }
 }
 
-/* for 700px or less *
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .product-listing{
 	  width: 97%;
 	  padding: 1% 4%;
 }
 
-  .column1 {
-    width: auto;
-    float: none;
+  .two-column-contact {
+    padding: 30% 30%;
   }
-  
-  .column2 {
-    width: auto;
-    float: none;
-    margin-left: 0px;
-  }
-  
-  .column3 {
-    width: auto;
-    float: none;
-  }
+
+
 }
-*/
+
+@media screen and (max-width: 1600px) {
+  .product-listing{
+    width: 97%;
+    padding: 1% 4%;
+}
+
+  .two-column-contact {
+    padding: 30% 30%;
+  }
+
+}
+
+
+
