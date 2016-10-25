@@ -9,8 +9,26 @@ body {
   padding-top: 9rem;
   margin: 0;
   }
-	'/*padding: 0.2rem; */
+	/*padding: 0.2rem; */
 
+/* style guide */
+.guide-grid {
+  padding-top: 1rem;
+}
+
+#rectangle-nav {
+  width: 185px;
+  height: 500px; 
+  background-color: #F8F8F8;
+}
+
+
+#rectangle {
+  width: 225px;
+  height: 225px;
+  background-color: #F8F8F8;
+  margin: 1rem 0;
+}
 
 img {
   max-width: 100%;
@@ -112,7 +130,7 @@ a.nav-logo-item{
   padding: 7rem;
   padding-left: 10rem;
   padding-right: 50rem;
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 .fullbleed-about{
@@ -232,6 +250,7 @@ a.nav-bag-item {
   margin: 0.1rem;
 }
 
+
 .product-heading {
   text-align: center;
 }
@@ -260,6 +279,12 @@ a.nav-bag-item {
   border: 1px solid;
 }
 
+textarea {
+  width: 100%;
+  height: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .button_form {
   margin-top: 1rem;
   float: right;
@@ -273,7 +298,12 @@ a.nav-bag-item {
 
 
 .product-review-main {
-  padding-top: 2.5em;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.review {
+  margin-bottom: 10rem;
 }
  
 .product-description-h4 {
