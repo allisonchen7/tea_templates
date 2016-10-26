@@ -39,6 +39,19 @@
 
 	padding: 0 1rem;
 }
+/*ABOUT PAGE*/
+
+.box-about-2col-a {
+	-webkit-flex: 1 auto;
+	-ms-flex: 1 auto;
+	flex: 1 auto;
+}
+
+.box-about-2col-b {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;	
+}
 
 
 /* product listing */
@@ -130,6 +143,19 @@
 	flex: 1 1 18em;
 
 	padding: 0 1rem;
+}
+
+/*about*/
+.box-about-a{
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+.box-about-b{
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
 }
 
 
