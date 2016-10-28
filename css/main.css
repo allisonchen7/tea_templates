@@ -16,6 +16,10 @@ body {
   padding-top: 1rem;
 }
 
+hr { 
+  color: green;
+}
+
 #rectangle-nav {
   width: 185px;
   height: 500px; 
@@ -36,6 +40,11 @@ img {
 
 }
 
+em { 
+  font-weight: 600;
+  font-style: normal;
+}
+
 .big-images {
   max-width: 100%;
   height: auto;
@@ -52,6 +61,24 @@ a:hover, a:active {
   color: rgb(65, 81, 33);
 	text-decoration: none;
   font-size: 1.2rem;
+}
+
+.list:link, .list:visited {
+  font-size: 0.85rem;
+    color: #696969;
+}
+
+.list:hover, .list:active {
+  font-size: 0.85rem;
+  color: rgb(65, 81, 33);
+}
+
+.product-link:link, .product-link:visited {
+  font-color: black;
+}
+
+.product-link:hover, .product-link:active {
+  color: rgb(65, 81, 33);
 }
 
 /* TOP LOGO*/
@@ -111,7 +138,7 @@ a.nav-logo-item{
 .about-2col-a {
   display: inline-block;
   padding-left: 0;
-  padding-right:0;
+  padding-right: 0;
   order: 1;
 }
 
@@ -119,26 +146,25 @@ a.nav-logo-item{
   display: inline-block;
   text-align: bottom;
   padding-left: 0;
-  margin-right: 0rem;
+  margin-right: 0;
   margin-left: 0;
 /*  padding-top:5rem;*/
   order: 2;
 }
+
 .about-2col-c {
-  float: left;
   display: inline-block;
   padding-left: 0;
-  padding-right:0;
+  padding-right: 0;
   order: 3;
 }
 
 .about-2col-d {
-  float: right;
   display: inline-block;
   padding-left: 0;
   margin-right: 0;
   margin-left: 0;
-  padding-right: 0rem;
+  padding-right: 0;
 /*  padding-top:5rem;*/
   order: 4;
 }
@@ -150,8 +176,8 @@ a.nav-logo-item{
 }
 
 .about-description-main {
-  margin-top: 1rem;
-  margin-left:0;
+  /*margin-top: 1rem;*/
+  margin-left: 0;
   margin-right: 0
 }
 
@@ -325,6 +351,7 @@ a.nav-bag-item {
   right: 0;
   margin-right: 5rem;
   margin-top: 2rem;
+  margin-left: 5rem;
 
 }
 
@@ -341,14 +368,19 @@ a.nav-bag-item {
 }
 
 .product-description-main {
-  margin-top: 3rem;
+  margin-top: 2.75rem;
 }
 
-.product-description { 
-  text-align: left;
-  padding-top: ;
-  padding-left: 0;
-  margin-left: 0;
+/*.product-description { 
+  text-align: center;
+
+  padding-left: 1rem;
+  margin-left: 1rem;
+
+}*/
+
+.jeju {
+  max-width: 35rem;
 }
 
 .product-order-a {
@@ -410,9 +442,6 @@ textarea {
 
 }*/
 
-.col3 {
-  width: 100%;
-}
 
 
 .description {
@@ -437,15 +466,17 @@ textarea {
 
 .two-column-item-a {
   display: inline-block;
-  padding-left: 0;
+  padding-left: 5rem;
+  padding-right: 0;
+  margin-top: 3rem;
   order: 1;
 }
 
 .two-column-item-b {
   display: inline-block;
   padding-left: 0;
-  margin-right: 7rem;
-  margin-left: 0;
+  margin-right: 5rem;
+  margin-left: 1rem;
   order: 2;
 }
 
@@ -469,29 +500,36 @@ textarea {
 .two-column-item-personal { 
   padding-left: 5rem;
   margin-right: 10rem;
-  flex: 2 1 auto;
+  flex: 1 1 auto;
   margin-top: 3rem;
 }
 
 .two-column-item-summary { 
-    padding-right: 5rem;
+    padding-right: 3rem;
     padding-left: 10rem;
     padding-top: 3rem;
+    padding-bottom: 30%;
     background-color: #F8F8F8;
   }
 
 .two-column-item-thanks {
+
   padding-left: 5rem;
   margin-right: 3rem;
-  flex: 2 auto;
   margin-top: 3rem;
+}
 
+.thank-text {
+  max-width: 45rem;
+  padding-left: 0;
 }
 .three-column {
   left: 0;
   right: 0;
   margin-left: 8rem;
   margin-right: 8.5rem;
+    border-bottom-color: black;
+
 }
 
 @media (max-width: 490px) {
@@ -503,18 +541,22 @@ textarea {
   display: inline-block;
   padding-left: 0.5rem;
   margin-left: 0.5rem;
+
 }
 
 .column-top {
   padding-top: 3rem;
 }
 
-.three-column-item-text {
-  display: inline-block;
-  padding-left: 0.5rem;
-  margin-left: 0.5rem;
-  margin-top: 3rem; 
+.bottom {
+  padding-top: 0;
 }
+
+.three-column-item-text {
+  margin-top: 2rem;
+
+}
+
 
 .bag-image {
   margin-top: 2rem;
@@ -522,13 +564,24 @@ textarea {
 
 .subtotal { 
   float: right;
-  margin-right: 11rem;
+  margin-right: 15rem;
   margin-bottom: 5rem;
   }
 
 
 .summary-products {
   display: inline-block;
+  margin-right: 2rem;
+  margin-bottom: ;
+}
+
+.product-text { 
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+
+.product-image {
+  vertical-align: middle;
 }
 
 /* 
@@ -603,19 +656,19 @@ special{
   }
 
   .about-2col-d{
-    padding-left: 50%;
+    padding-left: 0;
     padding-right: 0%;
     padding-top: 0;
     margin-top: 0;
   }  
   .fullbleed-tea-text{
     padding-left: 10%;
-    padding-right: 50%;
+    padding-right: 0;
     padding-top: 20%;
     padding-bottom: 20%;
   }
   .fullbleed-steep-text{
-    padding-left: 50%;
+    padding-left: 0;
     padding-right: 30%;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -720,7 +773,6 @@ special{
   }
 
 
-
   .about-2col-b{
     padding-left: 2%;
     padding-right: 2%;
@@ -729,24 +781,24 @@ special{
 
   .about-2col-c{
     padding-left: 0;
-    padding-right: 50%;
+    padding-right: 0;
     padding-top: 2rem;
   }
   .about-2col-d{
-    padding-left: 50%;
+    padding-left: 0;
     padding-right: 0%;
     padding-top: 0;
     margin-top: 0;
   }  
   .fullbleed-tea-text{
     padding-left: 10%;
-    padding-right: 50%;
+    padding-right: 0;
     padding-top: 7%;
     padding-bottom: 7%;
   }
   .fullbleed-steep-text{
     padding-left: 50%;
-    padding-right: 10%;
+    padding-right: 0;
     padding-top: 7%;
     padding-bottom: 7%;
   }
@@ -765,6 +817,11 @@ form, input {
   width:;
 }
 
+#qty {
+  width: 2rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
 
 /* TEXT ELEMENTS */
 
@@ -782,7 +839,7 @@ h1, h2, h3 {
 h3 { 
   font-size: 1.2rem;
 
-  font-weight: 400;
+  font-weight: 600;
   text-transform: capitalize;
 }
 
@@ -797,7 +854,6 @@ h4 {
 p {
   text-align: left;
   font-weight: 400;
-  padding-left: 0.5rem;
 }
 
 
@@ -807,7 +863,10 @@ ul li {
   font-weight: 200;
 }
 
-
+.list {
+  font-size: 0.85rem;
+  color: ;
+}
 ol.list_number {
   list-style: lower-alpha;
 }
@@ -832,7 +891,7 @@ ul li {
 =======
 
 
-@media screen and (max-width: 500px) {  
+@media screen and (min-width: 500px) {  
   .product-listing{
 	  width: 97%;
 }
@@ -858,7 +917,7 @@ ul li {
 
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
 
   .two-column-contact {
     padding: 30% 30%;
@@ -866,6 +925,49 @@ ul li {
 
 }
 
+@media screen and (max-width: 1171px) {
+
+  .two-column-item-a {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .product-description-main {
+    margin-top: 0;
+
+  }
+
+  .jeju {
+    max-width: 53.8rem;
+
+  }
+
+  .jeju-product { 
+    margin-left: 7rem;
+    margin-right: 12rem;
+  }
+
+}
+
+@media (max-width: 587px) {
+  .jeju-product {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
 
 
->>>>>>> Stashed changes
+@media (max-width: 1058px) {
+  .two-column-item-summary {
+    order: 2;
+    margin-left: 0;
+    margin-top: 2rem;
+    padding-right: 10rem;
+  }
+
+  .two-column { 
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
