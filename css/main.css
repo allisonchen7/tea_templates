@@ -828,3 +828,44 @@ ul li {
 }
 
 
+<<<<<<< Updated upstream
+=======
+
+
+@media screen and (max-width: 500px) {  
+  .product-listing{
+	  width: 97%;
+}
+
+  .two-column-contact {
+    padding: 10% 10%;
+  }
+
+  .pagewrap {
+    width: 94%;
+  }
+
+  header, footer {
+    padding: 1% 4%;
+  }
+}
+
+
+  .two-column-contact {
+    padding: 30% 30%;
+  }
+
+
+}
+
+@media screen and (max-width: 1600px) {
+
+  .two-column-contact {
+    padding: 30% 30%;
+  }
+
+}
+
+
+
+>>>>>>> Stashed changes
