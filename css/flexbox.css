@@ -57,11 +57,17 @@
 /* product listing */
 
 .box-item-product{
-	-webkit-flex: 3 1 auto;
+	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;	
 
 	padding: 0 1rem;
+}
+
+.box-item-social {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
 }
 
 .box-two-column-a {
