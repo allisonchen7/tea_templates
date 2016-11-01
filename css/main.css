@@ -256,7 +256,7 @@ a.nav-logo-item{
 }
 
 .fullbleed-steep{
-  background-image: url(../img/brewing.jpg);
+  background-image: url(../img/brewing2.jpg);
   background-position: center;
     padding: 0;
   padding-left: 0;
@@ -295,7 +295,7 @@ a.nav-logo-item{
 
 /*CONTACT PAGE*/
 .contact-bg{
-  background-image: url(../img/tea.jpg);
+  background-image: url(../img/tea2.jpg);
   background-position: right;
 
   padding-left: 0;
@@ -660,11 +660,12 @@ textarea {
 .summary-products {
   display: inline-block;
   margin-right: 2rem;
-  margin-bottom: ;
+  margin-bottom: 0;
+  vertical-align: middle;
 }
 
 .product-text { 
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding-left: 0;
 }
 
@@ -988,6 +989,7 @@ input, textarea {
   font-size: 1em;
   color: rgb(90, 117, 47);
   width: 100%;
+  border: 0.5px solid #D0D0D0;
 
 }
 
@@ -1041,6 +1043,7 @@ ul li {
   color: #696969;
   font-weight: 200;
 }
+
 
 .list {
   font-size: 0.85rem;
@@ -1181,9 +1184,8 @@ ul li {
 
   }
 
-}
 
-@media (max-width: 941px) {
+/*@media (max-width: 941px) {
 
   .three-column {
     margin: 0;
@@ -1193,9 +1195,9 @@ ul li {
   .two-column-item-summary {
     order: 2;
     margin-left: 0;
-    margin-top: 2rem;
+    margin-top:;
     margin-right: 0;
-    padding-right: 2rem;
+    padding-right: 0;
 }
 
 
@@ -1203,28 +1205,67 @@ ul li {
   flex-direction: row-reverse;
 }
 }
+*/
 
-
-/*@media (max-width: 1109px) {
+@media (max-width: 1058px) {
 
   .two-column-item-summary {
     margin-left: 0;
     margin-top: 2rem;
     margin-right: 0;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    order: 2;
   }
 
   .two-column-item-personal {
-    margin-right: 4rem;
+    margin-right: 7rem;
+    margin-left: 2rem;
+    order: 1;
+  }
+
+  .two-column-item-thanks {
+    order: 1;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  
+}
+
+@media (max-width: 481px) {
+  .two-column-item-summary {
+    padding-right: 1.5rem;
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    order: 2;
+  }
+
+  .two-column-item-personal {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    order: 1;
+}
+
+  .two-column-item-thanks {
+    order: 1;
+    margin-top: 0;
     margin-left: 0;
+    margin-right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
-
-  input {
-    width: 100%;
+.product-listing { 
   }
-}*/
+}
 
 
 @media (max-width: 1393px){
