@@ -24,7 +24,7 @@
 
 /* nav bar */
 
-.box-item-nav {
+.nav {
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
@@ -61,7 +61,7 @@
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;	
 
-	padding: 0 1rem;
+
 }
 
 .box-item-social {
