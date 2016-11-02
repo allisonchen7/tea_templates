@@ -91,6 +91,13 @@ img {
 
 }
 
+ a img:hover, img a:hover {
+  filter: brightness(98%);
+  -webkit-transition-timing-function: ease-in-out;
+
+
+}
+
 .white {
   color;
 }
@@ -576,13 +583,21 @@ a.nav-logo-item{
   z-index: 100;
   display: inline-block;
   color: #5a752f;
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   text-align: center;
   margin-bottom: 0;
   font-size: 1.1rem;
   border: none;
-  border-bottom: 0 4px 7px rgba(184,184,184, 0.2);
+  color: black;
   }
+
+  button, button:hover, button:active, {
+    outline: none;
+  }
+
+.menu:hover, .menu:active {
+  color: rgb(65, 81, 33);
+}
 
 .main-nav-section {
   background-color: white;
@@ -612,7 +627,7 @@ a.nav-logo-item{
 }
 
 #nav-toggle:hover, #nav-toggle:focus {
-  background-color: gray;
+  color: rgb(65, 81, 33);
 }
 
 #nav-toggle.hidden, .nav-main.hidden {
@@ -1890,9 +1905,27 @@ ul li {
   }
 
   .nav-main {
-    padding-top: 2rem;
+    padding-top: 3rem;
     top: 0;
-    font-size: 1.1rem;
+  }
+
+  .nav-main-item, a:link {
+    font-size: 1.1rem
+  }
+
+  a.nav-bag-item {
+    padding-top: 0.75rem;
+    z-index: 120;
+  }
+
+  .nav-bag-section {
+    z-index: 120;
+
+  }
+
+  .menu {
+      box-shadow: 0px 4px 7px rgba(184,184,184, 0.2);
+
   }
 
 
