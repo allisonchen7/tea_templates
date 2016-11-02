@@ -15,10 +15,6 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,800" rel="stylesheet">
 
-
-	</head>
-
-	<body> 
 		<section class="nav-bag-section">
 			<nav class="bag-main box">
 			<a href="bag.html" class="nav-bag-item box-nav-bag"><img src="img/bag-icon.png" alt="bag icon" width="45px" height="auto"></a>
@@ -27,9 +23,9 @@
 		<section class="main-nav-section">
 			<nav class="logo-main box">
 				<a href="explore.html" class="nav-logo-item box-logo-nav">REFRESH TEA</a>
-
-
 			</nav>
+
+			<button id="nav-toggle" class="hidden menu" aria-hidden="true" aria-controls="nav-main">MENU</button>
 
 			<nav class="nav-main box"> 
 				<a href="explore.html" class="nav-main-item box-item-nav">EXPLORE</a>
@@ -38,6 +34,11 @@
 				<a href="contact.html" class="nav-main-item box-item-nav">CONTACT</a>
 			</nav>
 		</section>
+
+	</head>
+
+	<body> 
+		
 			<img class="big-images" src="img/tea_banner3.jpg"> 
 			
 			<!--<div class="fullbleed-explore fullbleed-explore-text">
@@ -52,38 +53,55 @@
 					<section class="product-listing-item col3 box-item-product">
 					<h3>GREEN TEAS</h3>
 						<ul>
-							<li><a href="sencha.html" class="list">Sencha Green Tea</a></li>
+							<li><a href="jeju.html" class="list">Jeju Island Green Tea</a></li>
 							<li><a href="peach.html" class="list">Peach Berry Jasmine Tea</a></li>
 
 						</ul>
 						<h3>BLACK TEAS</h3>
 						<ul>
-							<li>Tiramisu Black Tea</li>
-							<li>Black Dragon Pearl Tea</li>
+							<li><a href="jeju.html" class="list">Tiramisu Black Tea</a></li>
+							<li><a href="peach.html" class="list">Black Dragon Pearl Tea</a></li>
 
 						</ul>
 					</section>
-		              <section class="product-listing-item col2 box-item-product">
-		                 <a href="jeju.html"><img src="img/green_jeju.jpg" alt="Jeju Island Green Tea"></a>
+		            <section class="product-listing-item col2 box-item-product">
+		              	<section class="image-listing">
+		                 	<a href="jeju.html"><img src="	img/green_jeju.jpg" alt="Jeju Island Green Tea"></a>
+		             	</section>
+		                 <section class="descriptin-listing">
 							<h4><a href="jeju.html" class="product-link">JEJU ISLAND GREEN TEA</a></h4> 
-							<p class="description">A bright green tea from Jeju Island.</p> 
-
+								<p class="description">A bright green tea from Jeju Island.</p> 
 						</section>
-					<section class="product-listing-item col2 box-item-product">
-							<a href="peach.html"><img src="img/green_peach.jpg" alt="Peach Blossom Green Tea"></a>
-						 	<h4><a href="peach.html">PEACH BLOSSOM GREEN TEA</a></h4> 
-								<p class="description">Notes of peach and hibiscus.</p> 
+
+
 					</section>
 					<section class="product-listing-item col2 box-item-product">
-		                 <a href="jeju.html"><img src="img/black_tiramisu.jpg" alt="Sencha Green Tea"></a>
+						<section class="image-listing">
+							<a href="peach.html"><img src="img/green_peach.jpg" alt="Peach Blossom Green Tea"></a>
+						</section>
+						<section class="descrition-listing">
+						 	<h4><a href="peach.html">PEACH BLOSSOM GREEN TEA</a></h4> 
+								<p class="description">Notes of peach and hibiscus.</p>
+						</section> 
+					</section>
+					<section class="product-listing-item col2 box-item-product">
+						<section class="image-listing">
+							<a href="jeju.html"><img src="img/black_tiramisu.jpg" alt="Sencha Green Tea"></a>
+		             	</section>
+		                <section class="descrition-listing">
 		                 	<h4><a href="jeju.html">TIRAMISU BLACK TEA</a></h4> 
 								<p class="description">Sweet dark chocolate notes.</p> 
+						</section>
 
 					</section>
 					<section class="product-listing-item col2 box-item-product">
-		                 <a href="peach.html"><img src="img/black_dragon.jpg" alt="Dragonwell Green Tea"/></a>
+						<section class="image-listing">
+		                 	<a href="peach.html"><img src="img/black_dragon.jpg" alt="Dragonwell Green Tea"/></a>
+		                 </section>
+		                 <section class="descripion-listing">
 			                 <h4><a href="peach.html">BLACK DRAGON PEARL TEA</a></h4> 
-								<p class="description">Traditional dragonwell green tea.</p> 
+								<p class="description">Traditional dragonwell black pearl  tea.</p> 
+						</section>
 					</section>
 
 
@@ -105,13 +123,13 @@
 						<img src="img/social_icons.png" class="icons">
 					</p>
 				</section>
-		</section>
+		
 
 
 		<section class="social-listing box social-order">
 			<section class="social-listing-item box-item-social">
 
-				<img src="img/social_left_small.jpg">
+				<img src="img/social_left_small.png">
 
 			</section> 
 
@@ -123,17 +141,18 @@
 
 			<section class="social-listing-item box-item-social">
 
-				<img src="img/social_right_small.jpg">
+				<img src="img/social_right_small.png">
 
 			</section>
 
+		</section>
 		</section>
 
 
 
 
 
-
+	<hr class="footer-break about-break">
 		<section class="footer">
 
 			<nav class="footer-main box"> 
@@ -172,6 +191,10 @@
 				</div>
 			</nav>
 		</section>
+
+
+		<script src="js/zepto.js"></script>
+		<script src="js/nav.js"></script>
 	</body>
 </html>
 
