@@ -573,13 +573,15 @@ a.nav-logo-item{
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 100;
   display: inline-block;
   color: #5a752f;
   padding: 0.25rem 0.5rem;
   text-align: center;
   margin-bottom: 0;
-  border-bottom: white 3px solid;
+  font-size: 1.1rem;
+  border: none;
+  border-bottom: 0 4px 7px rgba(184,184,184, 0.2);
   }
 
 .main-nav-section {
@@ -1888,7 +1890,9 @@ ul li {
   }
 
   .nav-main {
+    padding-top: 2rem;
     top: 0;
+    font-size: 1.1rem;
   }
 
 
