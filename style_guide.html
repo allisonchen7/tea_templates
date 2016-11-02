@@ -32,121 +32,139 @@
 				<a href="references.html" class="nav-main-item box-item-nav">REFERENCES</a>
 			</nav>
 		</section>
-		
+	</section>
+
 		<section id="interactive_elements">
 			
 			<section id="link">
-				<h2>In-text link</h2>
+				<h2>IN-TEXT LINK</h2>
 
-				<h3>CSS selector:</h3>
-				<p>none</p>
+				<h3 class="styleguide-h3">CSS selector:</h3>
+				<p class="styleguide-p">none</p>
 
-				<h3>Sample Code:</h3> 
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 					<code>&lt;a href="type the link here"&gt; Title the link &lt;/a&gt;</code>
 
-				<h3>Rendered element:</h3>
-				 	<p>Interactive Prototype:	<strong><a href="---">Link to TeaShop</a></strong></p>
-		            <p>Other Tea stores: <strong><a href="http://www.teavana.com/us/en/home">Teavana</a></strong> 
-		                						<strong><a href="https://www.davidstea.com/">David's Tea</a></strong> </p>
-
+				<h3 class="styleguide-h3">Rendered element:</h3>
+				 	<p class="styleguide-p">Interactive Prototype:   <strong><a href="explore.html">Link to REFRESH TEA</a></strong></p>
+		            <p class="styleguide-p">An inspirational tea store: <strong><a href="https://www.davidstea.com/">David's Tea</a></strong> </p>
 			</section> 
-			<hr>
-				<h2>Navigation Button</h2>
-
-				<h3>CSS selector:</h3>
-				<p>.nav_button</p>
-
-				<h3>Sample Code:</h3> 
-					<code>&lt;a class="button-nav" href="#"&gt;Default Button&lt;/a&gt;</code>
-
-				<h3>Rendered element:</h3>
-					<a class="button-nav" href="#">Default Button</a>
 
 			<hr>
+
+				<h2>NAVIGATION BUTTON</h2>
+
+				<h3 class="styleguide-h3">CSS selector:</h3>
+				<p  class="styleguide-p">.nav_button</p>
+
+				<h3 class="styleguide-h3">Sample Code:</h3> 
+					<code>&lt;a href="#" class="default-button"&gt;Default&lt;/a&gt;</code>
+
+				<h3 class="styleguide-h3">Rendered element:</h3>
+				<label>
+					<a href="#" class="default-button">Default</a>
+				</label>
+
+
+			<hr>
+
 			<section id="reset">
-				<h2 id="submit">Submit/Reset Buttons</h2>
 
-				<h3>CSS selector:</h3>
-				<p>.submit_button, .reset_button</p>
+				<h2 id="submit">SUBMIT/RESET BUTTONS</h2>
 
-				<h3>Sample Code:</h3> 
+				<h3 class="styleguide-h3">CSS selector:</h3>
+				<p class="styleguide-p">.submit_button, .reset_button</p>
+
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 				<code> &lt;a href="submit" class="submit_button"&gt;Submit&lt;/a&gt;
 				</code> 
 
-				<h3>Rendered element:</h3>
-				<a href="#submit" class="submit_button">Submit</a> 
-				<a href="#reset" class="reset_button">Reset</a>
+				<h3 class="styleguide-h3">Rendered element:</h3>
+				<a href="#submit" class="default-button">Submit</a> 
+				<a href="#reset" class="default-button">Reset</a>
  
 
 			</section> 
+
 			<hr>
-				<h2>Text Input Field and Label</h2>
 
-				<h3>CSS selector:</h3>
-				<p>input</p>
+				<h2>TEXT INPUT FIELD AND LABEL</h2>
 
-				<h3>Sample Code:</h3> 
+				<h3 class="styleguide-h3">CSS selector:</h3>
+				<p class="styleguide-p">input, <br> .default-input</p>
+
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 				<code>
-					&lt;inupt type="text" value="name" placeholder="Jessica"&gt;
-					&lt;inupt type="submit" value="Submit" class="submit_button"&gt;
+					&lt;form&gt;Full Name:<br>
+					&lt;inupt class="default-input" type="text" value="name" placeholder="Jessica Chan"&gt;<br>
+					&lt;/form&gt;
 				</code> 
 
-				<h3>Rendered element:</h3>
-
+				<h3 class="styleguide-h3">Rendered element:</h3>
 					<form>
-						First name:<br>
-						<input type="text" name = "name" placeholder ="Jessica">
-						<input type="submit" value="Submit" class="submit_button">
-						<input type="reset" value="Reset" class="reset_button">
+						Full Name:<br>
+						<input class="default-input" type="text" name = "name" placeholder ="Jessica Chan">
 					</form>
+					<form>
+						E-mail address:<br>
+							<input class="default-input" type="text" name="name" placeholder ="me@me.com">
+					</form>	
 
-		</section> 
+	</section> 
+
+
 		<hr>
+
 		<section id="text_elements">
-							<h2>Heading 1</h2>
+			<h2>HEADINGS</h2>
 
-				<h3>CSS selector:</h3>
-				<p>h1, h2, h3</p>
+				<h3 class="styleguide-h3">CSS selector:</h3>
+				<p class="styleguide-p">h1, h2, h3</p>
 
-				<h3>Sample Code:</h3> 
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 				<code>   
-					h1, h2, h3 { 
-					<br>
-					text-align: left;
-					<br>
-					}
+					&lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+					&lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+					&lt;h3&gt;Heading 3&lt;/h3&gt;
+					
 				</code> 
 
-				<h3>Rendered element:</h3>
+				<h3 class="styleguide-h3">Rendered element:</h3>
 				<h1>Heading 1</h1>
 				<h2>Heading 2</h2>
 				<h3>Heading 3</h3>
 				
 			<hr>
-				<h2>Paragraph</h2>
+				
+			<h2>PARAGRAPH</h2>
 
-				<h3>CSS selector:</h3>
-				<p>p</p>
+				<h3 class="styleguide-h3">CSS selector:</h3>
+				<p class="styleguide-p">p</p>
 
-				<h3>Sample Code:</h3> 
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 				<code>   
-					p {
-					<br>
-					text-align: left;
-					<br>
-					}
+					&lt;P&gt;This is a paragraph using this style guide. Please continue reading to learn more about this guide.&lt;/P&gt;
 				</code> 
 
-				<h3>Rendered element:</h3>
-				<p>This is a paragraph using this style guide. Please continue reading to learn more about this guide.</p>
+				<h3 class="styleguide-h3">Rendered element:</h3>
+				<p class="styleguide-p">This is a paragraph using this style guide. Please continue reading to learn more about this guide.</p>
 
+			
 			<hr>
-				<h2>Bulleted List</h2>
 
-				<h3>CSS selector:</h3>
-				<p>ul, .list</p>
+<!--
 
-				<h3>Sample Code:</h3> 
+		DID WE USE ANY STYLE FOR BULLETED LIST / DO WE EVEN HAVE ANY LIST ON OUR PAGES?
+
+
+-->
+
+				<h2>BULLETED LIST</h2>
+
+				<h3 class="styleguide-h3">CSS selector:</h3>
+				<p class="styleguide-p">ul, .list</p>
+
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 				<code>
 					ul.list {
 					<br>
@@ -156,19 +174,21 @@
 
 				</code> 
 
-				<h3>Rendered element:</h3>
+				<h3 class="styleguide-h3">Rendered element:</h3>
 					<ul class="list">
 						<li>Point 1</li>
 						<li>Point 2</li> 
 						<li>Point 3</li>
 					</ul>
+
 			<hr>
+
 				<h2>Numbered list</h2>
 
-				<h3>CSS selector:</h3>
-				<p>ol, ol.list_number</p>
+				<h3 class="styleguide-h3">CSS selector:</h3>
+				<p class="styleguide-p">ol, ol.list_number</p>
 
-				<h3>Sample Code:</h3> 
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 				<code>
 					ol.list_number {
 					<br>
@@ -177,7 +197,7 @@
 					}
 				</code> 
 
-				<h3>Rendered element:</h3>
+				<h3 class="styleguide-h3">Rendered element:</h3>
 					<ol class="list_number">
 						<li>Point 1</li>
 						<li>Point 2</li>
@@ -186,149 +206,113 @@
 			</section> 
 
 		</section> 
+
 		<hr>
-		<section id="combined_elements">
-			
-				<h2>Main Navigation</h2>
+		
 
-				<h3>CSS selector:</h3>
-					<p>ul.main-navigation</p>
-            		<p>.main-navigation li a{}</p>
-            		<p>.main-navigation li a:hover{}</p>
+		<section id="combined_elements">			
+				<h2>MAIN NAVIGATION</h2>
 
-				<h3>Sample Code:</h3> 
+				<h3 class="styleguide-h3">CSS selector:</h3>
+					<p class="styleguide-p">.main-navigation</p>
+            		<p class="styleguide-p">.nav-main-item</p>
+            		<p class="styleguide-p">.nav-main-item:hover, .nav-main-item:activ{}</p>
+
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 					<code>
-					&lt;li&gt;<br>&lt;ul class ="main-navigation"&gt; &lt;a href="new-arrival.asp"&gt;NEW ARRIVAL&lt;/a&gt;&lt;/ul&gt;<br>&lt;/li&gt;
+						&lt;nav class="main-navigation box"&gt;<br>
+						&lt;a href"explore.html" class="nav-main-item box-item-nav"&gt;EXPLORE&lt;/a&gt; <br>
+						&lt;a href"whatsnew.html" class="nav-main-item box-item-nav"&gt;WHAT'S NEW&lt;/a&gt; <br>
+						&lt;a href"about.html" class="nav-main-item box-item-nav"&gt;ABOUT&lt;/a&gt; <br>
+						&lt;a href"contact.html" class="nav-main-item box-item-nav"&gt;CONTACT&lt;/a&gt; <br>
+						&lt;/nav&gt;
 					</code>
 
 
-				<h3>Rendered element:</h3>
+				<h3 class="styleguide-h3">Rendered element:</h3>
 				
 
-				<ul class="main-navigation">
-	              <li><a href="#">NEW ARRIVALS</a></li>
-	              <li><a href="#">TEA</a></li>
-	              <li><a href="#">FIND A RIGHT TEA FOR YOU</a></li>
-	              <li><a href="#">HOW TO BREW</a></li>
-	            </ul>
-
-	        </section> 
+				<nav class="main-navigation box">
+	             	<a href="explore.html" class="nav-main-item box-item-nav">EXPLORE</a>
+					<a href="whatsnew.html" class="nav-main-item box-item-nav">WHAT'S NEW</a>
+					<a href="about.html" class="nav-main-item box-item-nav">ABOUT</a>
+					<a href="contact.html" class="nav-main-item box-item-nav">CONTACT</a>
+	            </nav>
+	    </section> 
 
 			
-			<hr>
+		<hr>
 
+			<h2>PRODUCT LISTING</h2>
+				<h3 class="styleguide-h3">CSS selector:</h3>
+					<p class="styleguide-p">.product-listing</p>
 
-
-				<h2>Product Listing</h2>
-
-				<h3>CSS selector:</h3>
-					<p>.product-listing</p>
-
-				<h3>Sample Code:</h3> 
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 					<code>
-						&lt;section class="product-listing box"&gt;<br>
-		                &lt;section class="product-listing-item box-item-product"&gt;<br>
-		                &lt;img src="img/black_darjeeling.jpg" alt="Black Darjeeling Tea"&gt;<br>
-		                &lt;h4&gt;Black Darjeeling Tea&lt;/h4&gt;<br>
-		                &lt;p&gt;Description of the tea&lt;/p&gt;<br>
-
+						&lt;section class="product-listing box box-item-product"&gt;<br>
+		                &lt;a href="jeju.html&gt;&lt;img src="img/green-jeju.jpg" alt="Jeju Island Green Tea"&gt;&lt;/a&gt;<br>
+		                &lt;h4&gt;&lt;a href="jeju.html" class="product-link"&gt;&lt;JEJU ISLAND GREEN TEA&gt;&lt;/h4&gt;<br>
+		                &lt;p class="description"&gt;A bright green tea from Jeju Island.&lt;/p&gt;<br>
+		                &lt;/section&gt;
 		            </code>
 
-				<h3>Rendered element:</h3>
-					<section class="product-nav">
-						<h3>GREEN TEAS</h3>
-						<ul>
-							<li>Sencha Green Tea</li>
-							<li>Peach Berry Jasmine Tea</li>
-							<li>Jeju Island Green Tea</li>
-							<li>Dragonwell Green Tea</li>
-						</ul>
-						<h3>BLACK TEAS</h3>
-						<ul>
-							<li>Tiramisu Black Tea</li>
-							<li>Black Dragon Pearl Tea</li>
-							<li>English Breakfast Tea</li>
-							<li>Darjeeling Black Tea</li>
-						</ul>
-						<h3>WHITE TEAS</h3>
-						<ul>
-							<li>Earl Grey White Tea</li>
-							<li>Jasmine Silver Needle Tea</li>
-							<li>Imperial Acai Blueberry Tea</li>
-							<li>Fujian Silver Needle Tea</li>
-						</ul>
-						<h3>HERBAL TEAS</h3>
-						<ul>
-							<li>Summer Lemonade</li>
-							<li>Dragonfruit Herbal Tea</li>
-							<li>Chamomile Bloom Herbal Tea</li>
-							<li>Citrus Lavender Sage Tea</li>
-						</ul>
-					</section>
+				<h3 class="styleguide-h3">Rendered element:</h3>
+		            <section class="product-listing box product-order-b">
 
-				<section class="product-listing box">
+						<section class="product-listing-item col3 box-item-product">
+							<h3>GREEN TEAS</h3>
+								<ul>
+									<li><a href="sencha.html" class="list">Sencha Green Tea</a></li>
+									<li><a href="peach.html" class="list">Peach Berry Jasmine Tea</a></li>
 
+								</ul>
+								<h3>BLACK TEAS</h3>
+								<ul>
+									<li>Tiramisu Black Tea</li>
+									<li>Black Dragon Pearl Tea</li>
 
-					<section class="product-listing-item col3 box-item-product">
-					</section>
-		              <section class="product-listing-item col2 box-item-product">
-		                 <a href="jeju.html"><img src="img/green_jeju.jpg" alt="Jeju Island Green Tea"></a>
-							<h4><a href="jeju.html" class="header">JEJU ISLAND GREEN TEA</a></h4> 
-							<p class="description">Description of the tea</p> 
+								</ul>
+						</section>
+			            
+			            <section class="product-listing-item box-item-product">
+			                 <a href="jeju.html"><img src="img/green_jeju.jpg" alt="Jeju Island Green Tea"></a>
+								<h4><a href="jeju.html" class="product-link">JEJU ISLAND GREEN TEA</a></h4> 
+								<p class="description">A bright green tea from Jeju Island.</p> 
 
 						</section>
-					<section class="product-listing-item col2 box-item-product">
-							<a href="#"><img src="img/green_peach.jpg" alt="Peach Blossom Green Tea"></a>
-						 	<h4>PEACH BLOSSOM GREEN TEA</h4> 
-								<p class="description">Description of the tea</p> 
-					</section>
-					<section class="product-listing-item col2 box-item-product">
-		                 <a href="#"><img src="img/green_sencha.jpg" alt="Sencha Green Tea"></a>
-		                 	<h4>SENCHA GREEN TEA</h4> 
-								<p class="description">Description of the tea</p> 
-
-					</section>
-					<section class="product-listing-item col2 box-item-product">
-		                 <a href="#"><img src="img/green_dragon.jpg" alt="Dragonwell Green Tea"/></a>
-			                 <h4>DRAGONWELL GREEN TEA</h4> 
-								<p class="description">Description of the tea</p> 
-					</section>
-
-				 <section class="product-listing-item col2 box-item-product"
-		                 <a href="#"><img src="img/black_darjeeling.jpg" alt="Black Darjeeling Tea"></a>
-							<h4>DARJEELING BLACK TEA</h4> 
-							<p class="description">Description of the tea</p> 
+						
+						<section class="product-listing-item box-item-product">
+								<a href="peach.html"><img src="img/green_peach.jpg" alt="Peach Blossom Green Tea"></a>
+							 	<h4><a href="peach.html">PEACH BLOSSOM GREEN TEA</a></h4> 
+									<p class="description">Notes of peach and hibiscus.</p> 
 						</section>
-					<section class="product-listing-item col2 box-item-product">
-							<a href="#"><img src="img/black_dragon.jpg" alt="Black Dragon Tea"></a>
-						 	<h4>DRAGON PEARL BLACK TEA</h4> 
-								<p class="description">Description of the tea</p> 
-					</section>
-					<section class="product-listing-item col2 box-item-product">
-		                 <a href="#"><img src="img/black_english.jpg" alt="English Breakfast Tea"></a>
-		                 	<h4>ENGLISH BREAKFAST TEA</h4> 
-								<p class="description">Description of the tea</p> 
+						
+						<section class="product-listing-item box-item-product">
+			                 <a href="jeju.html"><img src="img/black_tiramisu.jpg" alt="Sencha Green Tea"></a>
+			                 	<h4><a href="jeju.html">TIRAMISU BLACK TEA</a></h4> 
+									<p class="description">Sweet dark chocolate notes.</p> 
+
+						</section>
+						
+						<section class="product-listing-item col2 box-item-product">
+			                 <a href="peach.html"><img src="img/black_dragon.jpg" alt="Dragonwell Green Tea"/></a>
+				                 <h4><a href="peach.html">BLACK DRAGON PEARL TEA</a></h4> 
+									<p class="description">Traditional dragonwell green tea.</p> 
+						</section>
 
 					</section>
-					<section class="product-listing-item col2 box-item-product">
-		                 <a href="#"><img src="img/black_tiramisu.jpg" alt="Tiramisu Black Tea"/></a>
-			                 <h4>TIRAMISU BLACK TEA</h4> 
-								<p class="description">Description of the tea</p> 
 
-					</section>
-				</section>
-			</section>
-			<br>
-			<br>
 			<hr>
+
+
 			<section>
 
-				<h2>Grids</h2>
+				<h2>GRIDS</h2>
 
-				<h3>CSS selector:</h3>
-					<p>.product-listing box, .product-listing-item, box-item-product</p>
+				<h3 class="styleguide-h3">CSS selector:</h3>
+					<p class="styleguide-p">.product-listing box, .product-listing-item, box-item-product</p>
 
-				<h3>Sample Code:</h3> 
+				<h3 class="styleguide-h3">Sample Code:</h3> 
 					<code>
 						&lt;section class="product-listing box"&gt;<br>
 		                &lt;section class="product-listing-item box-item-product"&gt;<br>
@@ -338,49 +322,77 @@
 
 		            </code>
 
-				<h3>Rendered element:</h3>
+				<h3 class="styleguide-h3">Rendered element:</h3>
+				<section class="1columns">
+					<p class="styleguide-coloumn-p styleguide-coloumn-p-bg"> 1 Column: </p>
+					<section class="contact-bg">
+						<section class="one-column-contact box-item-column-contact-email">
+							<h2 class="contact-header">CONTACT US</h2>
+							<p class="contact-us">Whether visiting our Fresh Tea stores or shopping online, we want to make sure you enjoy your experience and have all your questions answered. Therefore, if there is any question, please contact us so we can assist you. </p>
+						</section>
+					</section>
+				</section>
 				
 
-				<section class="product-listing box">
-
-					<section class="product-listing-item col2 box-item-product">
-						<div id="rectangle"></div>
-					</section>
-		            	
-		            <section class="product-listing-item col2 box-item-product">
-		                <div id="rectangle"></div>
-					</section>
-					
-					<section class="product-listing-item col2 box-item-product">
-						<div id="rectangle"></div>
-					</section>
-
-					<section class="product-listing-item col2 box-item-product">
-		                 <div id="rectangle"></div>
-
-					</section>
-					<section class="product-listing-item col2 box-item-product">
-		                 <div id="rectangle"></div>
-					</section>
-
-				 	<section class="product-listing-item col2 box-item-product">
-		                <div id="rectangle"></div>
+				<section class="2columns">
+					<p class="styleguide-coloumn-p styleguide-coloumn-p-bg"> 2 Columns: </p>
+					<section class="two-column box">
+						<section class="two-column-item-a box-item-column-a">
+							<img src="img/green_peach_large.jpg" alt="Peach Blossom Green Tea" class="big-images">
 						</section>
-					<section class="product-listing-item col2 box-item-product">
-							<div id="rectangle"></div>
-					</section>
-					<section class="product-listing-item col2 box-item-product">
-		                 <div id="rectangle"></div>
 
-					</section>
-					<section class="product-listing-item col2 box-item-product">
-		                <div id="rectangle"></div> 
+			            <section class="two-column-item-b box-item-column-b product-description-main jeju-product">
+							<h2 class="product-description">PEACH BLOSSOM GREEN TEA</h2> 
+								<p class="product-description jeju">
+									&#9733;&#9733;&#9733;&#9733;
+									<br>
+									This rose-colored blend is created from a pairing of luscious strawberries and peaches with sweet floral hibiscus, rose hips and jasmine green tea pearls.</p>
+								<h2 class="price">$11.95</h2>
+								QTY: <input id="qty" type="number" value="Quantity of Jeju Island Green Tea"><a href="bag.html" class="add_button">ADD TO BAG</a>
 
-					</section>
-					<section class="product-listing-item col2 box-item-product">
-		                <div id="rectangle"></div> 
+							<h3 class="product-description">Ingredient List:</h3> 
+								<ul class="product-description"> 
+									<li>Jasmine Leaves</li>
+									<li>Sweet Peach</li>
+									<li>Strawberry</li> 
+									<li>Kiwi</li>
 
+								</ul>
+							<h3 class="product-description">Brewing Time:</h3>
+								<p class="product-description">Let steep for 4 mins at 85 degrees celsius.</p>
+						</section>
 					</section>
+				</section>
+
+				<section class="3columns">
+					<p class="styleguide-coloumn-p styleguide-coloumn-p-bg"> 3 Columns: </p>
+
+					<section class="newtea">
+						<h2 class="whatsnew-header">2016 FALL FLAVOURS</h2>
+							<section class="whatsnew-listing">
+					 		<section class="whatsnew-listing-item box-item-product">
+							    <a href="jeju.html"><img src="img/greentea.jpg" alt="Jeju Island Green Tea"></a>
+												<h4><a href="jeju.html" class="product-link">FRUTA BOMBA GREEN TEA</a></h4> 
+												<p class="whatsnew-description">Crisp citrus notes from pineapple, apple, and lemongrass with sweet peach and papaya.</p> 
+							</section>
+
+							<section class="whatsnew-listing-item box-item-product">
+							                 <a href="jeju.html"><img src="img/blacktea.jpg" alt="Jeju Island Green Tea"></a>
+												<h4><a href="peach.html" class="product-link">TIRAMISU BLACK TEA</a></h4> 
+												<p class="whatsnew-description">Black tea with creamy chocolate, Madagascar vanilla and notes of elegant espresso.</p> 
+							</section>
+
+							<section class="whatsnew-listing-item box-item-product">
+							    <a href="peach.html"><img src="img/yellowtea.jpg" alt="Jeju Island Green Tea"></a>
+												<h4><a href="jeju.html" class="product-link">GOLDEN DRAGON YELLOW TEA</a></h4> 
+												<p class="whatsnew-description">High floral top note with smooth, mellow body with a subtle buttery finish.</p> 
+							</section>
+
+						</section>
+					</section>
+		
+				</section>
+
 				</section>
 					
 
@@ -389,6 +401,9 @@
 
 		</section> 
 
+	
+
+	<hr>
 		<section class="footer">
 
 			<nav class="footer-main box"> 
