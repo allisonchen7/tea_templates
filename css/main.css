@@ -55,8 +55,50 @@ em {
   max-width: 100%;
   height: auto;
 }
+/*.nav-main-item {
+  display: inline-block;
+  color: ;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  margin-bottom: 0;
+  border-bottom: white 3px solid;
 
+}
 
+.nav-main-item:hover, .nav-main-item:active {
+  border-bottom: rgb(65, 81, 33) 3px solid;
+}*/
+.nav-main {
+  position: fixed;
+  background-color: white;
+  top: 6rem;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  box-shadow: 0 4px 7px rgba(184,184,184, 0.2);
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.store{
+  left: 0;
+  right:0;
+}
+
+.newpage{
+  font-weight: 2rem;
+  text-align: center;
+  color: red;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.newpage:hover, .newpage:active{
+  color: #5a752f;
+  /*color: rgb(65, 81, 33);*/
+  text-decoration: underline;
+  font-size: 1.2rem;  
+}
 
 /*.fullbleed-explore{
   background-image: url(../img/tea_banner3.jpg);
@@ -84,13 +126,15 @@ em {
 */
 /* INTERACTIVE ELEMENTS */
 a:link, a:visited {
-  color: rgb(90, 117, 47);
+  color: black;
+/*  color: rgb(90, 117, 47);*/
 	text-decoration: none;
   font-size: 1.2rem;
 }
 
 a:hover, a:active {
-  color: rgb(65, 81, 33);
+  color: #5a752f;
+/*  color: rgb(65, 81, 33);*/
 	text-decoration: none;
   font-size: 1.2rem;
 }
@@ -196,22 +240,21 @@ a.nav-logo-item{
 .indent1{
   text-align: center;
   padding-top: 2.5rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .indent2{
   text-align: center;
   padding-top: 2.5rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
+
 .about-colour-bg{
-  background-image: url(../img/about-colour.png);
-  background-position: left;
-  padding: 0;
-  padding-left: 0;
-  padding-right: 0;
-  margin-top: 0;
-  background-repeat: no-repeat;
+  background-color: #f2f7e2;
+}
+
+.email-colour-bg{
+  background-color: #f2f7e2;
 }
 .about-two-column {
   display: flex;
@@ -274,19 +317,27 @@ a.nav-logo-item{
   text-align: center;
   display: inline-block;
   color: black;
-  font-size: 2.7rem;
-  letter-spacing: 2px;
+  font-size: 2rem;
+  letter-spacing: 0.8px;
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
-  line-height: 55px;
+  line-height: 45px;
 }
 
-.indent2{
+.email-break{
   text-align: center;
-  padding-top: 2.5rem;
-  font-size: 1.3rem;
+  display: inline-block;
+  color: black;
+  font-size: 2rem;
+  letter-spacing: 0.8px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 45px;
 }
+
+
 
 /*WHAT'S NEW PAGE*/
 .fullbleed-tea{
@@ -351,38 +402,47 @@ a.nav-logo-item{
   margin: 0;
 }
 
-.whatsnew-header{
-  text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+.whatsnew-colour-bg{
+  background-color: #f2f7e2;
+  background-position: left;
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  background-repeat: no-repeat;
 }
 
-.whatsnew-tea-listing {
-/*  left: 0;
-  right: 0;
-  margin-right: 5rem;
-  margin-top: 2rem;
-  margin-left: 5rem;
-  margin-bottom: 2rem;*/
+.whatsnew-header{
+  text-align: center; 
+  font-size: 2rem;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+}
+
+.whatsnew-listing {
 
   left: 0;
   right:0;
   
-  padding: 0.2rem;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  padding-top:0.2rem;
+  padding-bottom: 2rem;
   text-align: center;
   margin: 0.1rem;
 }
 
-.whatsnew-tea-listing-item{
+.whatsnew-listing-item{
   display: inline-block;
   padding: 0.7rem;
   text-align: center;
   margin: 0.1rem;
 }
 
-/*CONTACT PAGE*/
-.contact-bg{
-  background-image: url(../img/landing_new.jpg);
+.email-bg{
+  background-image: url(../img/contact.jpg);
+  background-size: 80%;
   background-position: center;
   padding-left: 0;
   padding-right: 0;
@@ -390,6 +450,20 @@ a.nav-logo-item{
   padding-top: 0;
 
   background-repeat: no-repeat;
+}
+.email-text{
+  text-align: center;
+}
+
+/*CONTACT PAGE*/
+.contact-bg{
+/*  background-image: url(../img/contact4.jpg);
+  background-size: 50%;
+  background-position: center;*/
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .send-email {
@@ -404,6 +478,17 @@ a.nav-logo-item{
 #comment {
   width: 100%;
   height: 5rem;
+}
+
+.contact-us{
+  text-align: center;
+}
+.contact-header{
+  text-align: center; 
+  font-size: 2rem;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0.5rem;
 }
 
 /*contact : fill out to send us email*/
@@ -708,8 +793,15 @@ textarea {
 
 
 }*/
-
-
+.whatsnew-description{
+  display: inline-block;
+  text-align: center;
+  font-weight: 200;
+  color:  #696969;
+  font-size: 0.8rem;
+  padding-left: 0;
+  width: 300px;
+}
 
 .description {
   display: inline-block;
@@ -875,6 +967,7 @@ special{
 }
 
 @media screen and (min-width: 300px) and (max-width: 550px){
+  
   .indent1{
     text-align: center;
     padding-top: 4%;
@@ -895,7 +988,14 @@ special{
 
 }
 
-@media (min-width: 300px){
+@media screen and (min-width: 300px){
+
+  .contact-bg{
+    padding-top: 1%;
+    padding-bottom: 4%;
+    margin-top: 0;
+  }
+
   .one-column-contact {
     padding-right: 10%;
     padding-left: 10%;
@@ -947,8 +1047,13 @@ special{
 }
 
 
-@media (min-width: 350px){
- 
+@media screen and (min-width: 350px){
+
+  .email-bg{
+    padding-top: 5%;
+    padding-bottom:5%;
+  }
+
   .fullbleed-tea-text{
     padding-left: 10%;
     padding-right: 10%;
@@ -983,12 +1088,24 @@ special{
 
 @media screen and (min-width: 500px) {  
 
+  .email-bg{
+    padding-top: 12%;
+    padding-bottom: 15%;
+  }
+
   .one-column-contact {
     padding-right: 20%;
     padding-left: 20%;
   }
+  .contact-bg{
+    padding-top: 3%;
+    padding-bottom: 4%;
+  }
 
-
+  .email-colour-bg{
+    padding-top: 5%;
+    padding-bottom: 9.5%;
+  }
   .pagewrap {
     width: 94%;
   }
@@ -1013,11 +1130,20 @@ special{
 }
 
 @media screen and (min-width: 900px) {
+  .email-bg{
+    padding-top: 16%;
+    padding-bottom: 15%;
+  }
+  .contact-bg{
+    padding-top: 1%;
+    padding-bottom: 3%;
+  }
 
   .one-column-contact {
     padding-right: 30%;
     padding-left: 30%;
   }
+
 
   .fullbleed-tea-text{
     padding-left: 10%;
@@ -1038,10 +1164,8 @@ special{
 }
 
 @media screen and (min-width: 300px) and (max-width: 1299px) {
-  .contact-bg{
-    padding-top: 3rem;
-    padding-bottom: 10rem;
-  }
+  
+  
   .about-2col-a{
     align-items: center;
     padding-left: 10%;
@@ -1076,6 +1200,20 @@ special{
 }
 
 @media screen and (min-width: 860px){
+  .email-bg{
+    padding-top: 16%;
+    padding-bottom: 15%;
+  }
+  .contact-bg{
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  .email-colour-bg{
+    padding-top: 5%;
+    padding-bottom: 8%;
+  }
+
   .about-img-bg{
     background-size: 90%;
     padding-top: 12%;
@@ -1086,7 +1224,18 @@ special{
     padding-top: 7%;
     padding-bottom: 7%;
   }
+}
 
+@media screen and (min-width: 1100px){
+  .email-bg{
+    padding-top: 16%;
+    padding-bottom: 15%;
+  }
+
+  .email-colour-bg{
+    padding-top: 5%;
+    padding-bottom: 7%;
+  }
   .about-text1{
     padding-left: 35%;
     padding-right: 10%;
@@ -1098,11 +1247,21 @@ special{
   }
 }
 
-@media screen and (min-width: 1300px) and (max-width: 1549px) {
+@media screen (min-width: 1300px) and (max-width: 1549px) {
   .contact-bg{
-    padding-top: 3rem;
-    padding-bottom: 10rem;
+    padding-top: 4%;
+    padding-bottom: 4%;
   }
+/*  .email-colour-bg{
+    padding-top: 5%;
+    padding-bottom: 7%;
+  }*/
+
+
+  .about-colour-bg{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  } 
  .about-2col-a{
   align-items: center;
     padding-left: 20%;
@@ -1179,10 +1338,16 @@ special{
 
 
 @media screen and (min-width: 1350px) {
-  .contact-bg{
-    padding-top: 3rem;
-    padding-bottom: 10rem;
+  .email-bg{
+    padding-top: 16%;
+    padding-bottom: 15%;
   }
+
+  .about-colour-bg{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  } 
+  
 
   .fullbleed-steep-text{
     padding-left: 40%;
@@ -1204,8 +1369,24 @@ special{
 @media screen and (min-width: 1550px) {
 
   .contact-bg{
-    padding-top: 3rem;
-    padding-bottom: 8rem;
+    padding-top: 3%;
+    padding-bottom: 4%;
+  }
+/*  .email-colour-bg{
+    padding-top: 5%;
+    padding-bottom: 7%;
+  }*/
+
+  .about-colour-bg{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  
+
+  .email-bg{
+    padding-top: 16%;
+    padding-bottom: 15%;
   }
 
   .about-2col-a{
@@ -1247,10 +1428,7 @@ special{
     padding-bottom: 15%;
   }
 
-  .about-colour-bg{
-    padding-top: 7%;
-    padding-bottom: 7%;
-  }
+
 
   .social-colour-bg {
     padding-top: 2rem;
@@ -1275,6 +1453,11 @@ special{
     padding-left: 20%;
     padding-right: 20%;
   }*/
+
+  .whatsnew-colour-bg{
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+  }
 }
 
 
@@ -1417,7 +1600,7 @@ ul li {
 @media screen and (min-width: 500px) {  
   .product-listing{
 }
-.whatsnew-tea-listing{
+.whatsnew-listing{
 
 }
 
