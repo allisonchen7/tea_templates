@@ -6,8 +6,8 @@
 
 body {
 	font-family: 'Ek Mukta', Helvetica, sans-serif;
-  padding-top: 8rem;
-  margin: 0;
+  padding-top: 7rem; 
+  /*margin-top: 7rem;*/
   }
 	/*padding: 0.2rem; */
 
@@ -79,6 +79,8 @@ em {
   padding-left: 10rem;
   padding-right: 10rem;
 }
+
+
 
 .store{
   left: 0;
@@ -517,7 +519,58 @@ a.nav-logo-item{
   padding-right: 10rem;
 }
 
+.menu {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+  display: inline-block;
+  color: #5a752f;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  margin-bottom: 0;
+  border-bottom: white 3px solid;
+  }
 
+.main-nav-section {
+  background-color: white;
+  top: 0;
+  text-align: center;
+  border-bottom: white 3px solid;
+
+}
+
+.nav-main-item {
+  display: inline-block;
+  color: #5a752f;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  margin-bottom: 0;
+  border-bottom: white 3px solid;
+}
+
+.nav-main-item:hover, .nav-main-item:active {
+  border-bottom: rgb(65, 81, 33) 3px solid;
+}
+
+#nav-toggle {
+  position: fixed;
+  display: block;
+  background-color: white;
+}
+
+#nav-toggle:hover, #nav-toggle:focus {
+  background-color: gray;
+}
+
+#nav-toggle.hidden, .nav-main.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+
+/* bag section */
 .bag-main {
   position: fixed;
   top: 0;
@@ -547,26 +600,7 @@ a.nav-bag-item {
 
 }
 
-.main-nav-section {
-  background-color: white;
-  top: 0;
-  text-align: center;
-  border-bottom: white 3px solid;
 
-}
-.nav-main-item {
-  display: inline-block;
-  color: #5a752f;
-  padding: 0.25rem 0.5rem;
-  text-align: center;
-  margin-bottom: 0;
-  border-bottom: white 3px solid;
-
-}
-
-.nav-main-item:hover, .nav-main-item:active {
-  border-bottom: rgb(65, 81, 33) 3px solid;
-}
 
 
 /* Explore page */
@@ -1823,5 +1857,32 @@ ul li {
   .icons{ 
     width: 30%;
   }
+
+}
+
+@media (max-width: 500px) {
+
+  body{
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .logo-main {
+    position: relative;
+    top: 0;
+    padding-top: 0.5rem;
+    
+  }
+
+  a.nav-logo-item {
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+  }
+
+  .nav-main {
+    top: 0;
+  }
+
 
 }
