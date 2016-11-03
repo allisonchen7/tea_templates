@@ -312,7 +312,15 @@ a.nav-logo-item{
 }
 
 .email-colour-bg{
-  background-color: #f2f7e2;
+  background-image: url(../img/contact-img.jpg);
+  background-size: 100%;
+  background-position: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  padding-top: 0;
+      background-repeat: no-repeat;
+  background-color: #f7f7f7;
 }
 .about-two-column {
   display: flex;
@@ -515,13 +523,14 @@ a.nav-logo-item{
 
 /*CONTACT PAGE*/
 .contact-bg{
-/*  background-image: url(../img/contact4.jpg);
-  background-size: 50%;
-  background-position: center;*/
+  background-color: white;
+/*  background-image: url(../img/contact-img.jpg);
+  background-size: 100%;
+  background-position: center;
   padding-left: 0;
   padding-right: 0;
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 0;*/
 }
 
 .send-email {
@@ -1215,6 +1224,7 @@ special{
     padding-bottom: 0;
   }
 
+
   .email-bg{
     padding-top: 12%;
     padding-bottom: 15%;
@@ -1227,11 +1237,13 @@ special{
   .contact-bg{
     padding-top: 3%;
     padding-bottom: 4%;
+
   }
 
   .email-colour-bg{
     padding-top: 5%;
-    padding-bottom: 9.5%;
+    padding-bottom: 15%;
+    background-position: 0;
   }
   .pagewrap {
     width: 94%;
@@ -1473,8 +1485,8 @@ special{
 
 @media screen and (min-width: 1550px) {
   .style-guide-body{
-    padding-left: 10%;
-    padding-bottom: 10%;
+/*    padding-left: 10%;
+    padding-bottom: 10%;*/
   }
   .contact-bg{
     padding-top: 3%;
@@ -1651,6 +1663,16 @@ ul li {
   margin-top: 2rem;
 }
 
+.footer-break-white {
+  border: 0;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  border-top-width: 0.1rem;
+  border-color: white;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
 @media (max-width: 835px) {
   .footer {
     margin-left: 2rem;
