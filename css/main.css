@@ -1,6 +1,6 @@
 /* GENERAL STYLING */
 .title {
-	text-align: center;
+  text-align: center;
 
 }
 .styleguide-p{
@@ -53,11 +53,11 @@
 }
 
 body {
-	font-family: 'Ek Mukta', Helvetica, sans-serif;
+  font-family: 'Ek Mukta', Helvetica, sans-serif;
   padding-top: 7rem; 
   /*margin-top: 7rem;*/
   }
-	/*padding: 0.2rem; */
+  /*padding: 0.2rem; */
 
 /* style guide */
 .guide-grid {
@@ -87,7 +87,7 @@ img {
   display: block;
   margin: auto;
   max-width: 100%;
-	height: auto;
+  height: auto;
 
 }
 
@@ -186,14 +186,14 @@ em {
 a:link, a:visited {
   color: black;
 /*  color: rgb(90, 117, 47);*/
-	text-decoration: none;
+  text-decoration: none;
   font-size: 1.2rem;
 }
 
 a:hover, a:active {
   color: #5a752f;
 /*  color: rgb(65, 81, 33);*/
-	text-decoration: none;
+  text-decoration: none;
   font-size: 1.2rem;
 }
 
@@ -711,24 +711,35 @@ a.nav-bag-item {
 }
 
 
+
 .social-listing {
   left: 0;
-  right: 0;
-  margin-right: 5rem;
-  margin-top: 2rem;
-  margin-left: 5rem;
-  margin-bottom: 2rem;
+  right:0;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  padding-top: 0.2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  margin: 0.1rem;
 
 }
+
 
 .social-listing-item {
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0.7rem;
+  text-align: center;
+  margin: 0.1rem;
 
 }
 
+img.social-listing-item {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .icons {
-  width: 15%;
+  width: 150px;
 }
 
 .explore-one-column {
@@ -1029,18 +1040,18 @@ textarea {
 SUBMIT AND RESET BUTTONS
 */
 .submit_button {
-	border: 0px;
-	background: white;
-	padding: 0.2em 1em;
-	border-radius: 0.1em;
+  border: 0px;
+  background: white;
+  padding: 0.2em 1em;
+  border-radius: 0.1em;
 }
 
 .reset_button {
-	color: #5a752f;
-	border: 0px;
-	background: white;
-	padding: 0.2em 1em;
-	border-radius: 0.1em;
+  color: #5a752f;
+  border: 0px;
+  background: white;
+  padding: 0.2em 1em;
+  border-radius: 0.1em;
 }
 
 .submit_button:hover, .reset_button:hover {
@@ -1063,18 +1074,18 @@ SUBMIT AND RESET BUTTONS
   }
 
 /*.submit_button { 
-	border: 1px solid rgb(90, 117, 47);
-	background: white;
-	padding: 0.2em 1em;
-	border-radius: 0.1em;
+  border: 1px solid rgb(90, 117, 47);
+  background: white;
+  padding: 0.2em 1em;
+  border-radius: 0.1em;
 }
 
 .reset_button {
-	color: gray;
-	border: 1px solid lightgray;
-	background: white;
-	padding: 0.2em 1em;
-	border-radius: 0.1em;
+  color: gray;
+  border: 1px solid lightgray;
+  background: white;
+  padding: 0.2em 1em;
+  border-radius: 0.1em;
 }
 
 .main-navigation li a:hover {
@@ -1130,9 +1141,10 @@ special{
   }
   .about-img-bg{
     background-size: 99%;
-    padding-top:0;
-    padding-top: 12%;
+    padding-top: 7%;
     padding-bottom: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .about-colour-bg{
@@ -1215,6 +1227,8 @@ special{
     padding-top: 0%;
     padding-bottom: 30%;
   }
+
+
 }
 
 
@@ -1570,7 +1584,7 @@ h1, h2, h3 {
 
 h3 { 
   font-size: 1.2rem;
-
+  margin-bottom: 0;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -1581,8 +1595,13 @@ h4 {
   margin: 0;
   text-transform: capitalize;
   text-align: center;
+  margin-top: 1rem;
 }
 
+
+h5 {
+  margin-bottom: 0;
+}
 p {
   text-align: left;
   font-weight: 400;
@@ -1601,6 +1620,14 @@ ul li {
   font-size: 0.85rem;
   color: ;
 }
+
+
+a.list:hover {
+    border-bottom: #696969 2px solid;
+
+}
+
+
 ol.list_number {
   list-style: lower-alpha;
 }
@@ -1612,6 +1639,7 @@ strong {
 ul {
   padding: 0;
   font-weight: 400;
+  margin-top: 0.5rem;
 }
 
 ul li {
@@ -1893,12 +1921,12 @@ ul li {
 
 @media (min-width: 320px) {
   .social-listing {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
-  .icons{ 
-    width: 30%;
+ .icons {
+  width: 120px;
   }
 
 }
@@ -1946,6 +1974,35 @@ ul li {
       box-shadow: 0px 4px 7px rgba(184,184,184, 0.2);
 
   }
+}
 
+@media (max-width: 771px){
+
+  .three-column-item, .three-column-item-text, .three-column {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .three-column-item-text {
+    max-width: 10rem;
+  }
+
+  .three-column {
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-left: 0;
+  }
+
+  h2.price {
+    font-size: 1.3rem;
+  }
+
+  h3.price {
+    font-size: 1.1rem;
+  }
 
 }
