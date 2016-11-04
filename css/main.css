@@ -158,21 +158,24 @@ em {
   font-size: 1.2rem;  
 }
 
-/*.fullbleed-explore{
+.tea-banner { 
   background-image: url(../img/tea_banner3.jpg);
   background-position: center;
   padding: 0;
   padding-left: 0;
   padding-right: 0;
+  left: 0;
+  right: 0;
   margin-top: 0;
   background-repeat: no-repeat;
-  width: 100%;
-
+  width: auto;
+  height: 100%;
 }
 
-.fullbleed-explore-text{
+.tea-banner-text {
   text-align: center;
-  padding-top: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   padding-left: 0;
   padding-right: 0;
   margin-top: 0;
@@ -181,7 +184,6 @@ em {
 
 } 
 
-*/
 /* INTERACTIVE ELEMENTS */
 a:link, a:visited {
   color: black;
@@ -718,7 +720,7 @@ a.nav-bag-item {
   padding-right: 0.2rem;
   padding-left: 0.2rem;
   padding-top: 0.2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   text-align: center;
   margin: 0.1rem;
 
