@@ -92,7 +92,8 @@ img {
 }
 
  a img:hover, img a:hover {
-  filter: brightness(98%);
+  
+  filter: opacity(0.45);
   -webkit-transition-timing-function: ease-in-out;
 
 
