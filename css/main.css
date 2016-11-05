@@ -280,8 +280,8 @@ a.nav-logo-item{
 }
 
 .about-img-bg{
-  background-image: url(../img/about.jpg);
-  background-position: left;
+  background-image: url(../img/7349256470_7c0c234137_b.jpg);
+  background-position: center;
   padding: 0;
   padding-left: 0;
   padding-right: 0;
@@ -1142,14 +1142,14 @@ special{
     padding-right: 10%;
     padding-left: 10%;
   }
-  .about-img-bg{
+/*  .about-img-bg{
     background-size: 99%;
     padding-top: 7%;
     padding-bottom: 15%;
     margin-top: 0;
     margin-bottom: 0;
   }
-
+*/
   .about-colour-bg{
     padding-top: 7%;
     padding-bottom: 7%;
@@ -1169,24 +1169,6 @@ special{
     padding-left: 15%;
     padding-right: 15%;
   }
-
-/*  .indent1{
-    text-align: center;
-    padding-top: 8%;
-    font-size: 93%;
-  }
-
-.indent2{
-    text-align: center;
-    padding-top: 8%;
-    font-size: 93%;
-  }
-
-  .break{
-    text-align: center;
-    font-size: 99%;
-    line-height: 200%;
-  }*/
 }
 
 
@@ -1234,7 +1216,23 @@ special{
 
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px){
+  .email-colour-bg{
+    padding-top: 5%;
+    background-size: 0;
+    background-color: #f7f7f7;
+    padding-bottom: 10%;
+  }
 
+  .about-text1{
+
+  }
+  .about-img-bg{
+    padding-bottom: 8%;
+    padding-top: 10%;
+/*    filter: blur(10px);*/
+  }
+}
 @media screen and (min-width: 500px) {  
   .whatsnew-header{
     padding-top: 3%;
@@ -1245,6 +1243,7 @@ special{
   .email-bg{
     padding-top: 12%;
     padding-bottom: 15%;
+    padding-top: 5%;
   }
 
   .one-column-contact {
@@ -1290,6 +1289,8 @@ special{
     padding-top: 16%;
     padding-bottom: 15%;
   }
+
+
   .contact-bg{
     padding-top: 1%;
     padding-bottom: 3%;
@@ -1323,40 +1324,7 @@ special{
   .contact-bg{
     padding-top: 4%;
     padding-bottom: 4%;
-  }
-  
-  
-  .about-2col-a{
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 0;
-    order: 1;
-  } 
-
-  .about-2col-b{
-    order: 2;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 2rem;
-  }
-
-  .about-2col-c{
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 2rem;
-    padding-bottom: 5rem;
-    order: 4;
-  }
-
- .about-2col-d{
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 2rem;
-    margin-top: 0;
-    order: 3;
-  } 
+  }  
 }
 
 @media screen and (min-width: 860px){
@@ -1380,9 +1348,8 @@ special{
   }
 
   .about-img-bg{
-    background-size: 90%;
     padding-top: 12%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
   }
 
   .about-colour-bg{
@@ -1439,9 +1406,9 @@ special{
   }
 
   .about-img-bg{
-    background-size: 90%;
+
     padding-top: 12%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
   }
 
   .about-colour-bg{
@@ -1512,6 +1479,7 @@ special{
   }*/
 
   .about-colour-bg{
+    width: 100%;
     padding-top: 7%;
     padding-bottom: 7%;
   }
@@ -1523,9 +1491,9 @@ special{
   }
 
   .about-img-bg{
-    background-size: 90%;
+ /*   background-size: 90%;*/
     padding-top: 12%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
   }
 
   .social-colour-bg {
