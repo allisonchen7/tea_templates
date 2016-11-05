@@ -395,8 +395,8 @@ a.nav-logo-item{
 }
 
 .about-img-bg{
-  background-image: url(../img/about.jpg);
-  background-position: left;
+  background-image: url(../img/7349256470_7c0c234137_b.jpg);
+  background-position: center;
   padding: 0;
   padding-left: 0;
   padding-right: 0;
@@ -446,56 +446,6 @@ a.nav-logo-item{
   left: 0;
   right: 0;
 }
-.about-2col-a {
-  display: inline-block;
-  padding-left: 0;
-  margin-right: 0;
-  margin-left: 0;
-  padding-right: 0;
-  order: 1;
-}
-
-.about-2col-b {
-  display: inline-block;
-  padding-left: 0;
-  margin-right: 0;
-  margin-left: 0;
-  padding-bottom: 0;
-  order: 2;
-}
-
-.about-2col-c {
-  display: inline-block;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  padding-bottom: 0;
-  order: 3;
-}
-
-.about-2col-d {
-  display: inline-block;
-  padding-left: 0px;
-  margin-right: 0;
-  margin-left: 0;
-  padding-right: 0;
-
-  order: 4;
-}
-.about-description { 
-  text-align: center;
-  padding-top: 0;
-  padding-left: 0;
-  margin-left: 0;
-  max-width: 35rem;
-}
-
-.about-description-main {
-  /*margin-top: 1rem;*/
-  margin-left: 0;
-  margin-right: 0;
-}
-
 
 .break{
   text-align: center;
@@ -531,7 +481,6 @@ a.nav-logo-item{
   padding-left: 0;
   padding-right: 0;
   margin-top: 0;
-
   background-repeat: no-repeat;
 }
 
@@ -564,22 +513,6 @@ a.nav-logo-item{
   margin-right: 0;
  
 }
-/*.fullbleed-about{
-  background-image: url(../img/tea.jpg);
-  padding: 7rem;
-  padding-left: 10rem;
-  padding-right: 50rem;
-  margin-top: 2rem;
-}*/
-
-/*.fullbleed-unique{
-  background-image: url(../img/unique.jpg);
-  background-position: center;
-  padding: 7rem;
-  padding-left: 10rem;
-  padding-right: 50rem;
-  margin-top: 2rem;
-}*/
 
 .newtea{
   padding:0;
@@ -1077,11 +1010,6 @@ textarea {
   font-weight: bold;
 }
 
-/*.col1 {
-  height: 100%;
-
-
-}*/
 .whatsnew-description{
   display: inline-block;
   text-align: center;
@@ -1287,7 +1215,6 @@ special{
     font-size: 200%;
     line-height: 100%;
   }
-
 }
 
 @media screen and (min-width: 300px){
@@ -1302,14 +1229,14 @@ special{
     padding-right: 10%;
     padding-left: 10%;
   }
-  .about-img-bg{
+/*  .about-img-bg{
     background-size: 99%;
     padding-top: 7%;
     padding-bottom: 15%;
     margin-top: 0;
     margin-bottom: 0;
   }
-
+*/
   .about-colour-bg{
     padding-top: 7%;
     padding-bottom: 7%;
@@ -1329,24 +1256,6 @@ special{
     padding-left: 15%;
     padding-right: 15%;
   }
-
-/*  .indent1{
-    text-align: center;
-    padding-top: 8%;
-    font-size: 93%;
-  }
-
-.indent2{
-    text-align: center;
-    padding-top: 8%;
-    font-size: 93%;
-  }
-
-  .break{
-    text-align: center;
-    font-size: 99%;
-    line-height: 200%;
-  }*/
 }
 
 
@@ -1361,40 +1270,24 @@ special{
     padding-bottom:5%;
   }
 
-  .fullbleed-tea-text{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 7%;
-    padding-bottom: 7%;
-  }
-  .fullbleed-steep-text{
-    padding-left: 10%;
-    padding-right: 30%;
-    padding-top: 7%;
-    padding-bottom: 7%;
-  }
-
-  .fullbleed-tea-text{
-    padding-left: 10%;
-    padding-right: 37%;
-    padding-top: 7%;
-    padding-bottom: 7%;
-  }
-    .fullbleed-steep{
-    padding-bottom: 50%;
-  }
-
-  .fullbleed-steep-text{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 0%;
-    padding-bottom: 30%;
-  }
-
-
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px){
+  .email-colour-bg{
+    padding-top: 5%;
+    background-size: 0;
+    background-color: #f7f7f7;
+    padding-bottom: 10%;
+  }
 
+  .about-text1{
+
+  }
+  .about-img-bg{
+    padding-bottom: 8%;
+    padding-top: 10%;
+  }
+}
 @media screen and (min-width: 500px) {  
   .whatsnew-header{
     padding-top: 3%;
@@ -1405,6 +1298,7 @@ special{
   .email-bg{
     padding-top: 12%;
     padding-bottom: 15%;
+    padding-top: 5%;
   }
 
   .one-column-contact {
@@ -1425,24 +1319,6 @@ special{
   .pagewrap {
     width: 94%;
   }
-
-  .fullbleed-tea-text{
-    padding-left: 10%;
-    padding-right: 50%;
-    padding-top: 7%;
-    padding-bottom: 7%;
-  }
-
-  .fullbleed-steep{
-    padding-bottom: 50%;
-  }
-
-  .fullbleed-steep-text{
-    padding-left: 20%;
-    padding-right: 0%;
-    padding-top: 0%;
-    padding-bottom: 40%;
-  }
 }
 
 @media screen and (min-width: 900px) {
@@ -1450,6 +1326,8 @@ special{
     padding-top: 16%;
     padding-bottom: 15%;
   }
+
+
   .contact-bg{
     padding-top: 1%;
     padding-bottom: 3%;
@@ -1460,63 +1338,13 @@ special{
     padding-left: 30%;
   }
 
-
-  .fullbleed-tea-text{
-    padding-left: 10%;
-    padding-right: 50%;
-    padding-top: 7%;
-    padding-bottom: 7%;
-  }
-
-  .fullbleed-steep{
-    padding-bottom: 50%;
-  }
-  .fullbleed-steep-text{
-    padding-left: 40%;
-    padding-right: 0%;
-    padding-top: 0%;
-    padding-bottom: 40%;
-  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 1299px) {
   .contact-bg{
     padding-top: 4%;
     padding-bottom: 4%;
-  }
-  
-  
-  .about-2col-a{
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 0;
-    order: 1;
-  } 
-
-  .about-2col-b{
-    order: 2;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 2rem;
-  }
-
-  .about-2col-c{
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 2rem;
-    padding-bottom: 5rem;
-    order: 4;
-  }
-
- .about-2col-d{
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 2rem;
-    margin-top: 0;
-    order: 3;
-  } 
+  }  
 }
 
 @media screen and (min-width: 860px){
@@ -1540,9 +1368,8 @@ special{
   }
 
   .about-img-bg{
-    background-size: 90%;
     padding-top: 12%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
   }
 
   .about-colour-bg{
@@ -1584,24 +1411,10 @@ special{
     padding-bottom: 7%;
   } 
 
-  .fullbleed-tea-text{
-    padding-left: 10%;
-    padding-right: 50%;
-    padding-top: 18%;
-    padding-bottom: 7%;
-  }
-
-  .fullbleed-steep-text{
-    padding-left: 40%;
-    padding-right: 0%;
-    padding-top: 0%;
-    padding-bottom: 30%;
-  }
-
   .about-img-bg{
-    background-size: 90%;
+
     padding-top: 12%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
   }
 
   .about-colour-bg{
@@ -1641,21 +1454,6 @@ special{
     padding-top: 7%;
     padding-bottom: 7%;
   } 
-  
-
-  .fullbleed-steep-text{
-    padding-left: 40%;
-    padding-right: 0%;
-    padding-top: 0%;
-    padding-bottom: 30%;
-  }
-
-  .fullbleed-steep-text{
-    padding-left: 40%;
-    padding-right: 0%;
-    padding-top: 0%;
-    padding-bottom: 30%;
-  }
 
 }
 
@@ -1672,6 +1470,7 @@ special{
   }*/
 
   .about-colour-bg{
+    width: 100%;
     padding-top: 7%;
     padding-bottom: 7%;
   }
@@ -1683,9 +1482,9 @@ special{
   }
 
   .about-img-bg{
-    background-size: 90%;
+ /*   background-size: 90%;*/
     padding-top: 12%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
   }
 
   .social-colour-bg {
