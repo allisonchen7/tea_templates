@@ -109,7 +109,6 @@ hr {
 
 img {
   display: block;
-  margin: auto;
   max-width: 100%;
   height: auto;
 
@@ -123,8 +122,6 @@ a img {
 }
 
  a img:hover, img a:hover {
-
-  
   filter: opacity(0.45);
 
   
@@ -239,8 +236,8 @@ em {
 @media (min-width: 300px){
  
   .tea-banner-text {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 
@@ -305,7 +302,7 @@ a.shop-button:link, a.shop-button:visited {
 
 }
 
-.shop-button:hover {
+a.shop-button:hover {
   border: 1px solid;
   color: #5a752f;
   background: white;
@@ -317,7 +314,7 @@ a.shop-button:link, a.shop-button:visited {
   .tea-banner-text {
     padding: 5rem;
     padding-left: 19rem;
-    padding-top: 7rem;
+    padding-top: 7.5rem;
   }
 }
 
@@ -770,14 +767,12 @@ a.nav-bag-item {
 .product-listing {
   left: 0;
   right: 0;
-
   margin-top: 1rem;
   margin-bottom: 1rem;
 
 }
 
 .description-listing{
-
 
   }
 
@@ -803,23 +798,61 @@ a.nav-bag-item {
   max-width: 12rem;
 }
 
-@media (max-width: 589px) {
+.col4 {
+  max-width: 20rem;
+}
+
+.text-box {
+  display: block;
+  max-width: 20rem;
+}
+
+
+
+@media (max-width: 681px) {
   .col3 {
     max-width: 20rem;
   }
 
   .product {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .product-listing-item {
     margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .product-listing-item {
+    margin-left: 0rem;
     margin-right: 0rem;
   }
 }
 
+
+@media (max-width: 682px) {
+  .col4 {
+    display: block;
+    max-width: 40rem;
+  }
+
+  a img.image-listing {
+    width: 50%;
+    margin-right: 1rem;
+
+  }
+
+  .image-listing {
+    max-width: 100%;
+  }
+
+  .text-box { 
+    display: inline-block;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 30%;
+    margin-right: 1rem;
+  }
+}
+
 @media (min-width: 980px) {
-  .col2 {
+  .col2{
     display: block;
   }
 }
@@ -828,6 +861,22 @@ a.nav-bag-item {
   .col2 {
     display: inline-block;
   }
+  .image-box {
+    display: inline-block;
+  }
+  .text-box {
+    display: inline-block;
+  }
+
+  .product-listing-item {
+    margin-left: 0;
+  }
+
+  .product-listing {
+    margin-left: 0;
+    padding-left: 0;
+  }
+ 
 }
 
 
