@@ -1,3 +1,4 @@
+
 /* GENERAL STYLING */
 .title {
   text-align: center;
@@ -34,7 +35,28 @@
 }
 
 
+.submission{
+  text-align: right;
+}
 
+.price-hr{
+  color: #b9c1b0;
+  height: 0.1rem;
+  background-color: #b9c1b0;
+  border-style: none;
+
+}
+
+
+.price{
+  font-size: 2em;
+  letter-spacing: 2px;
+  color: black;
+  font-weight: 800;
+  text-align: right;
+  height: 15px;
+
+}
 /*.add_button {
   border: 0px;
   background: white;
@@ -1247,10 +1269,7 @@ special{
     padding-bottom: 2rem;
   }
 
-  .about-text1{
-    padding-left: 11%;
-    padding-right: 10%;
-  }
+
 
   .about-text2{
     padding-left: 15%;
@@ -1279,10 +1298,12 @@ special{
     background-color: #f7f7f7;
     padding-bottom: 10%;
   }
-
   .about-text1{
+    padding-left: 11%;
+    padding-right: 10%;
 
   }
+
   .about-img-bg{
     padding-bottom: 8%;
     padding-top: 10%;
@@ -1293,7 +1314,16 @@ special{
     padding-top: 3%;
     padding-bottom: 0;
   }
+  .about-text1{
+    padding-left: 11%;
+    padding-right: 10%;
 
+  }
+
+    .about-img-bg{
+    padding-top: 12%;
+    padding-bottom: 10%;
+  }
 
   .email-bg{
     padding-top: 12%;
@@ -1521,9 +1551,11 @@ form, input {
 }
 
 #qty {
-  width: 2rem;
+  width: 3rem;
   margin-right: 1rem;
   margin-left: 0.5rem;
+  text-align: right;
+
 }
 
 /* TEXT ELEMENTS */
@@ -1686,8 +1718,6 @@ ul li {
   header, footer {
     padding: 1% 4%;
   }
-
-
 
 }
 
