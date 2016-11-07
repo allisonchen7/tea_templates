@@ -1017,6 +1017,37 @@ img.social-listing-item {
 }
 
 
+
+
+@media (max-width: 1171px){
+  .two-column{
+    padding-top: 2rem;
+  }
+
+}
+
+@media (max-width: 696px){
+  .two-column{
+    padding-top: 4rem;
+  }
+
+}
+
+@media (max-width: 530px){
+  .two-column{
+    padding-top: 7rem;
+  }
+
+}
+
+@media (max-width: 500px){
+  .two-column{
+    padding-top: 0;
+  }
+
+}
+
+
 .two-column-item-personal { 
   padding-left: 5rem;
   margin-right: 10rem;
@@ -1059,7 +1090,7 @@ img.social-listing-item {
   flex-grow: 10;
   margin-bottom: 2rem;
   padding-left: 5rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   order: 2;
 
 }
@@ -1367,7 +1398,7 @@ input#same-address {
 }
 
 .bag-image {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 
@@ -1385,8 +1416,12 @@ input#same-address {
   margin: 1rem;
 
 }
-
-
+#sub {
+  color: #696969;
+}
+#total {
+  margin: 0;
+}
 
 .recommended-heading { 
   font-size: 1.3rem;
