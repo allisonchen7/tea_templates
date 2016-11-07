@@ -69,23 +69,24 @@
 						<h2>PAYMENT INFORMATION&nbsp;</h2> 
 
 						<form>
-							NAME ON CARD:<br>
-							<input type="text" name="name" placeholder ="NAME">
+							<label for="name-card">NAME ON CARD:</label>
+							<input type="text" id="name-card" name="name" placeholder="First Last">
 						</form>
 
 						<form>
-							CARD NUMBER:<br>
-							<input type="text" name="card" placeholder ="####">
+							<label for="card">CARD NUMBER:</label>
+							<input type="number" id="card" name="card" placeholder="####">
 						</form>		
 
 						<form>
-							SECURITY NUMBER:<br>
-							<input type="text" name="security" placeholder ="123" maxlength="3" id="security">
+							<label for="security">SECURITY NUMBER:</label>
+							<br>
+							<input type="text" id="security" name="security" placeholder ="123" maxlength="3">
 						</form>
 
 						<form>
-							BILLING ADDRESS:<br>
-							<input type="text" name="address" placeholder ="1234 Street">
+							<label for="bill-address">BILLING ADDRESS:</label>
+							<input type="text" id="bill-address" name="bill-address" placeholder ="1234 Street">
 							
 							<input id="same-address" type="checkbox" name="billing same" value="same address">
 							<label for="same-address">Same as Personal Address</label>
