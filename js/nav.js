@@ -1,6 +1,6 @@
 var width = $(window).width();
 
-if ( width < 500 ) {
+if ( width < 501 ) {
 	// select id nav-toggle and remove the class hidden
 	$("#nav-toggle").removeClass("hidden");
 	$(".nav-main").addClass("hidden");
