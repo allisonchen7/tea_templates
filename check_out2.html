@@ -68,13 +68,30 @@
 					
 				</section>
 					<section class="two-column-item-personal-payment box-item-column-personal">
-						<h2>PAYMENT INFORMATION&nbsp;</h2> 
+						<h2>PAYMENT INFORMATION</h2> 
 
 						<form>
 							<label for="name-card">NAME ON CARD:</label>
 							<input type="text" id="name-card" name="name" placeholder="First Last">
 						</form>
-
+						CARD TYPE: 
+						<form> 
+							
+							<label for="visa" id="card-type-visa">
+					
+									<img src="img/visa.png" id="card-size-visa" alt="Visa Logo">
+										<input type="radio" name="Visa" value="Visa" id="visa">
+							</label>
+							<label for="mc" id="card-type-mc">
+									<img src="img/mastercard.png" id="card-size" alt="Master Card Logo">
+										<input type="radio" name="Mastercard" value="Mastercard" id="mc">
+							</label>
+							<label for="amex" id="card-type-amex">
+									<img src="img/amex.png" id="card-size-amex" alt="American Express Logo">
+										<input type="radio" name="Amex" value="Amex" id="amex">
+							</label>
+						
+						</form>
 						<form>
 							<label for="card">CARD NUMBER:</label>
 							<input type="number" id="card" name="card" placeholder="####">
